@@ -3,12 +3,14 @@ import requests
 import string
 from bs4 import BeautifulSoup
 from docx import Document
-from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
+from reportlab.platypus import SimpleDocTemplate, Paragraph
+from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
+
 # URLからHTMLを取得
-url = "https://ja.wikipedia.org/wiki/2023%E5%B9%B4%E3%81%AE%E6%B0%97%E8%B1%A1%E3%83%BB%E5%9C%B0%E8%B1%A1%E3%83%BB%E5%A4%A9%E8%B1%A1"
+url = "https://edition.cnn.com/2023/12/03/climate/cop28-al-jaber-fossil-fuel-phase-out/index.html"
 response = requests.get(url)
 response.encoding = 'utf-8'
 soup = BeautifulSoup(response.text, 'html.parser')
@@ -51,35 +53,34 @@ doc.save(os.path.join(dataset, f'{clean_title}.docx'))
 font_path = '/Users/kamehaku/Desktop/Add-LLM vs Chat-GPT/tools/Noto_Sans_JP/static/NotoSansJP-Regular.ttf'
 
 
-# 日本語フォントの登録
+# フォントの登録
 pdfmetrics.registerFont(TTFont('NotoSansJP', font_path))
 
+# PDFファイルの作成
+pdf_file = os.path.join(dataset, f"{clean_title}.pdf")
+doc = SimpleDocTemplate(pdf_file, pagesize=letter)
 
-# pdfファイルに保存
-c = canvas.Canvas(os.path.join(dataset, f"{clean_title}.pdf"), pagesize=letter)
-width, height = letter
-c.setFont("NotoSansJP", 12)  # 日本語フォントを使用
-c.drawString(30, height - 50, title)
-textobject = c.beginText()
-textobject.setTextOrigin(30, height - 70)
-textobject.setFont("NotoSansJP", 10)  # 日本語フォントを使用
+## スタイルの設定
+styles = getSampleStyleSheet()
+notosans_style = styles['Normal'].clone('NotoSansJP')  # 既存のスタイルをコピー
+notosans_style.fontName = 'NotoSansJP'
+notosans_style.fontSize = 10
+styles.add(notosans_style)  # 新しいスタイルを追加
 
-# テキストを行単位で処理し、必要に応じて新しいページを開始
+# タイトル用のスタイルを作成
+title_style = styles['Heading1'].clone('NotoSansJP-Title')  # 既存のスタイルをコピー
+title_style.fontName = 'NotoSansJP'
+title_style.fontSize = 20  # フォントサイズを大きくする
+styles.add(title_style)  # 新しいスタイルを追加
+
+# テキストをParagraphオブジェクトに変換
+elements = []
+elements.append(Paragraph(title, styles['NotoSansJP-Title']))  # タイトル用のスタイルを使用
+
+# 本文とリストの内容を追加
 lines = (body + '\n' + '\n'.join(lists)).split('\n')
-current_height = height - 70
 for line in lines:
-    # ページの下端に達したら新しいページを開始
-    if current_height < 40:
-        c.drawText(textobject)
-        c.showPage()
-        c.setFont("NotoSansJP", 12)
-        textobject = c.beginText()
-        textobject.setTextOrigin(30, height - 70)
-        textobject.setFont("NotoSansJP", 10)
-        current_height = height - 70
-    textobject.textLine(line)
-    current_height -= 12
+    elements.append(Paragraph(line, styles['NotoSansJP']))
 
-# 最後のページのテキストを描画
-c.drawText(textobject)
-c.save()
+# PDFを生成
+doc.build(elements)
