@@ -1,0 +1,935 @@
+The Classical Theory of Supply and Demand
+Sabiou M. Inoua1 and Vernon L. Smith2
+Chapman University
+Abstract. This paper introduces and formalizes the classical view on supply and demand,
+which, we argue, has an integrity independent and distinct from the neoclassical theory.
+Demand and supply, before the marginal revolution, are defined not by an unobservable
+criterion such as a utility function, but by an observable monetary variable, the reserva-
+tion price: the buyer’s (maximum) willingness to pay (WTP) value (a potential price) and
+the seller’s (minimum) willingness to accept (WTA) value (a potential price) at the mar-
+ketplace. Market demand and supply are the cumulative distribution of the buyers’ and
+sellers’ reservation prices, respectively. This WTP-WTA classical view of supply and de-
+mand formed the means whereby market participants were motivated in experimental
+economics although experimentalists (trained in neoclassical economics) were not cog-
+nizant of their link to the past. On this foundation was erected a vast literature on the
+rules of trading for a host of institutions, modern and ancient. This paper documents
+textually this reappraisal of classical economics and then formalizes it mathematically.
+A follow-up paper will articulate a theory of market price formation rooted in this clas-
+sical view on supply and demand and in experimental findings on market behavior.
+1 Introduction
+This paper introduces and formalizes the classical view on supply and demand, which,
+we argue, has an integrity independent and distinct from the neoclassical theory. The
+new school, as is well-known, replaced the old in the 1870s through a widespread ac-
+ceptance of constrained utility maximization as a core principle of economics.1 Yet a
+1 Economic Science Institute, Chapman University, 1 University Drive, Orange, CA 92866, USA; in-
+oua@chapman.edu
+2 Economic Science Institute, Chapman University, 1 University Drive, Orange, CA 92866, USA;
+vsmith@chapman.edu
+2
+century later, utility maximization is proven to have no interesting implication for aggre-
+gate (market) demand behavior, not even the law of demand except under artificial,
+restrictive conditions. While this major aggregation problem of standard price theory
+(the ‘anything goes’ or SMD theorem2) is often simply if unintentionally evaded in most
+applied models through the representative-consumer simplification (Hildenbrand, 1983;
+Grandmont, 1987), or by falling back on some additive utility structure or other forms
+of cardinality (Arrow, 1986; A. Kirman, 1989; A. P. Kirman, 1992), a few mathematical
+economists explored a pathway out of it, which consists of investigating the law of mar-
+ket demand as a collective regularity holding by integration over the distribution of con-
+sumers’ preferences or incomes, thus turning aggregation into the solution, rather than
+the problem, of the law of market demand: for example, income or wealth effects, which
+are the main issue in the arbitrariness of neoclassical market demand, can be shown to
+be well-behaved by aggregation over a diverse population of consumers (essentially by
+the law of large numbers).3 Ironically, this is the way the law of demand was understood
+in classical economics; Marshall, for example, who—as further emphasized below (Sec-
+tion 2.1)—tried to revive the classical view on supply and demand, makes it clear that
+his clause of constant marginal-utility of wealth (oft-discussed but oft-misunderstood in
+modern commentaries) is inconsequential on the aggregate of many consumers, poor
+and rich combined (Marshall, [1890] 1920, pp. 15-16, 83). More important for our ob-
+jective here, the old school articulated a price discovery process which found unex-
+pected new meaning in experimental markets establishing their remarkable decentral-
+ized convergence properties; these properties were not and could not be predicted by
+neoclassical modelling (Chamberlin, 1948; V. L. Smith, 1962). The goal of this paper is to
+rehabilitate mathematically the classical view on supply and demand. The classical view
+3
+is easy to understand by opposition to the neoclassical one that replaced it, but which
+introduced into economics a series of mischievous innovations. For example, it used to
+be taken for granted in economics that economic reality is discontinuous at the micro
+level: not only is economic decision (both demand and supply behavior) binary (to buy
+or not to buy, to sell or not to sell is the problem), but goods come in discrete units and
+their relations are binary; for example, a consumer choses between two substitutes, ra-
+ther than substituting infinitesimal amounts of goods, which strictly speaking are empty
+concepts. (For example: is an infinitesimal amount of a diamond still a diamond? Or even
+water?) While many of the marginalists were well aware of this point through Cournot
+([1838] 1897, p. 50), they nonetheless assume that economic variables are smooth so as
+to use the tools of differential calculus.
+Moreover, individual demand and supply, before the marginal revolution, are defined
+not by an unobservable criterion such as a utility function, but by an observable mone-
+tary variable, the reservation price: the buyer’s (maximum) willingness to pay (WTP)
+value (a potential price) and the seller’s (minimum) willingness to accept (WTA) value (a
+potential price) at the marketplace. The underlying concept in value theory, in other
+words, used to be, not pleasure or satisfaction in consuming a good (which is experi-
+enced, or not, after the fact of purchase), but the consumer’s valuation of a good, the
+maximum the consumer would be willing to pay for the good given his expectation of
+the good’s usefulness. Market demand and supply are simply the cumulative distribu-
+tion of the buyers’ and sellers’ reservation prices, respectively. This WTP-WTA classical
+view of supply and demand formed the means whereby market participants were moti-
+vated in experimental economics although experimentalists (trained in neoclassical eco-
+nomics) were not cognizant of their link to the past. On this foundation was erected a
+4
+vast literature on the rules of trading for a host of institutions, modern and ancient.
+(Holt, in Kagel &Roth, 1995, pp. 360-377.)
+Classical economics is not commonly viewed in these terms; rather it is often reduced
+to a simplistic supply-side, cost or labor theory of value, that fails to explain even the
+basic water-diamond value paradox because it was thought to be lacking the concept of
+marginal utility (a misunderstanding and distraction; Inoua & Smith, 2020a). Therefore,
+we must briefly revisit the old literature to document our interpretation and to frame
+the analysis in Section 2, which derives the classical conception of supply and demand
+progressively and heuristically from the classical literature. The second part of this paper
+(Section 3-4) is a formal restatement of classical supply and demand. Section 3 formu-
+lates mathematically the supply side of classical economics and derives key propositions
+of classical value theory.4 Section 4 derives the less known demand side, with special
+attention to the foundation of classical demand theory, as it is made explicit in the
+French classical literature following Adam Smith.
+2 The classical methodology
+Overall, the classical economists adopted a methodology that can be summarized in
+three principles:
+Principle 1: It is a realistic portrayal of a market economy based on astute observation
+of individual behaviors and interaction in the marketplace.
+5
+Principle 2: It derives from the acute observations and facts about the economy’s deep
+emergent properties that are the collective unintended consequences of these latter, the
+results of human actions but not of human design.5
+Principle 3: Supply and demand are classically given by an observable, operational, mon-
+etary value: the reservation price—the buyer’s maximum willingness to pay (WTP) and
+the seller’s minimum willingness to accept (WTA).
+This paper, which is part of a general rehabilitation of classical economics, deals more
+specifically with Principle 3, the classical conception of supply and demand.6 It is thus
+situated within the authors’ overall rehabilitation project: it emphasizes how supply and
+demand were viewed before the marginal revolution. Alfred Marshall attempted to rec-
+oncile this old view of supply and demand with the new-born marginalist school.
+2.1 Marshall’s revival of a key principle
+Alfred Marshall’s ‘pairs of scissors’ image is often invoked in an oversimplification of the
+history of modern economics divided into three phases: from the classical, supply-cen-
+tered, cost or labor theory of value to the early neoclassical demand-centered, marginal-
+utility theory of value, and to Marshall’s synthesis of these two one-sided views into a
+unified price theory, which, allegedly, became the foundation of contemporary econom-
+ics. Yet Marshall actually holds a more subtle view of the history of economics: his ‘pairs
+of scissors’ metaphor was merely intended to put an end to an old, essentially meta-
+physical, controversy over the ultimate cause of value—a problem which consisted of
+deciding which one of the two, unanimously recognized,7 basic causes of value, utility or
+cost, is the most primitive cause. Marshall’s reading of the history of economics, at the
+time, is unique, in that he most clearly recognized what was really at stake during the
+6
+marginal revolution. Though he accepted diminishing marginal utility (DMU) as central
+to value theory (making him a marginalist of course), yet he saw in Jevons’s program a
+major setback from a core methodological principle of classical economics, which is of-
+ten overlooked in modern commentaries. This principle consists of dealing, as regards
+individual economic decisions, not with the ultimate psychological forces driving them,
+but operationally with the monetary sacrifices that people make in order to satisfy them.
+Thus, the relevant concepts for demand theory, for example, are, not the ultimate psy-
+chological motivations behind demand decisions (desire, want, pleasure), which had de-
+fied any precise quantitative modeling, but the money prices consumers are willing to
+pay in order to acquire the desired goods. This most fundamental principle, is applied
+equally to the supply side, and to market price theory more generally. Investigated from
+the standpoint of people’s feelings, the value attached to an object reflects ultimately
+the desire of possessing it and the effort in producing it (an object, in this sense, is valu-
+able, the more it is desired, and the more difficult it is to produce, in terms of toil and
+trouble)8. But investigated from the standpoint of the monetary values (or prices) trad-
+ers in a market are willing to pay in order to produce or consume a good, the market
+price simply balances the ordered set of higher values that buyers are willing to pay to
+possess the good, with the ordered set of lower values that sellers are willing to accept
+in order to produce it. This, as textually documented below (Section 2.2), was precisely
+how supply and demand were understood long before the marginal revolution.
+Alfred Marshall, perceptively recognizing this classical methodology, credited its discov-
+ery to Adam Smith, whom he viewed as having launched an epoch in the history of eco-
+nomics when he built from this principle a value theory that unifies all of economics “by
+a clearer insight into the balancing and weighing, by means of money, of the desire for
+7
+the possession of a thing on the one hand, and on the other of all the various efforts and
+self-denials which directly and indirectly contribute towards making it. Important as had
+been the steps that others had taken in this direction, the advance made by him was so
+great that he really opened out this new point of view, and by so doing made an epoch.”
+([1890] 1920, Appendix B, p. 759). It is in fact this principle for measuring motives that
+confers upon economics a special quantitative nature among the social sciences ([1890]
+1920, Book I, Ch. II, p. 12). Thus, in reaction to the hedonistic marginal utilitarianism of
+Jevons and Walras, who make pleasure the fundamental motivating category of eco-
+nomics, Marshall reformulates it operationally—as did the classicists (and, as it was ap-
+plied, unknowingly, in the first market experiments)—entirely in terms of WTP and WTA
+(or demand-price and supply-price, as Marshall calls them, because he wanted to relate
+that difference to the incentive for seller entry)9. This WTP-WTA approach to supply and
+demand frames value theory throughout the classical literature; we first emphasize the
+demand side, since it is the less known.
+2.2 Classical demand and French contributions
+The demand side of classical price theory is sketched in Adam Smith’s Lectures on Juris-
+prudence ([1763] 1869), under ‘Cheapness and Plenty’, which prefigures the Wealth of
+Nations ([1776] 1904). In the magnum opus, he simply grants that the purpose and foun-
+dation of consumer demand is to satisfy need, and he expresses demand in terms of
+WTP. He then directly explains price formation from the competition (higgling and bar-
+gaining) among the sellers and buyers in a market (Ch. VII of Book I).
+Adam Smith did not articulate demand theory in a systematic, explicit, and formal way;
+but this articulation, which will be made explicit later by his disciples, can be sketched
+8
+simply. Utility, or the capacity of a good to satisfy a consumer’s need, is classically
+treated, not in the abstract, but in the specific sense of use-value: the value that a person
+attaches to an object by virtue of this object’s usefulness and measured by what the
+person is willing to pay to get the object. Demand being thus founded on use-value, and
+use-value being operationally WTP, Adam Smith, throughout Wealth of Nations, equates
+demand directly to ‘those who are willing to pay’ a price. Elaborating on his work, the
+other classical economists also recognized explicitly WTP as the relevant concept in clas-
+sical demand theory. Malthus, for example, announced early in his Principles that ‘de-
+mand will be represented and measured by the sacrifice in money which the demanders
+are willing and able to make in order to satisfy their wants.’ (Malthus, [1820] 1836, p 62)
+The systematic and formal presentation of this classical demand theory appears in the
+important yet often overlooked French contribution to classical value theory, notably
+the works of Germain Garnier, Jean-Baptiste Say, Augustin Cournot, and Jules Dupuit,
+but also the Italian Pellegrino Rossi, who succeeded J.-B. Say at College de France’s eco-
+nomics chair.10 We see and interpret the French classical literature as a substantive ra-
+ther than a mere echo, or popularization, of British classical economics; nor do we see
+it as detached from the classical school and interpreted as an anticipation of marginal-
+utility theory. Cournot, firmly in the classical stream, can be said to have charted new
+directions, notably on supply theory, which prepared the ground for the transition to
+neoclassical economics (though Cournot’s views are more nuanced than its interpreta-
+tions)11. Jules Dupuit, refining an intuition of J.-B. Say, clarified that use-value corre-
+sponds more precisely, not to any WTP, but to maximum WTP reservation price. J.S. Mill
+reached the same conclusion, putting it more technically: ‘Value in use […] is the ex-
+9
+treme limit of value in exchange.’ Or: ‘the utility of a thing in the estimation of the pur-
+chaser, is the extreme limit of its exchange value [the maximum price the purchaser
+would be willing to pay].’ (Mill [1848] 1909, bk. 3: chap. 1, sec. 2; chap. 2, sec. 1.) Alt-
+hough no classical economist stated it explicitly, a consumer’s demand follows by defi-
+nition of the consumer’s valuation: willingness to buy any unit whose value is greater
+than the price. This basic inequality, as formally emphasized in Section 4, defines entirely
+the market demand function, which is simply the total number of units that are valued
+more than the price offered: namely the complementary distribution function of con-
+sumers’ values.
+As to the foundation of classical demand, namely the determinants of WTP itself, it is
+not utility in the absolute, but a mix of utility and wealth. Need, unlike wealth, is a prim-
+itive demand concept.12 Consumers buy goods to satisfy a list of needs: to each need is
+associated a certain good (or collection of goods) that satisfies it. A consumer’s demand
+decision is shaped by a pyramid or hierarchy of needs, a ranking of needs from the most
+urgent to the least urgent: broadly speaking, from necessities, conveniences, to luxuries
+and fancies.13
+This hierarchy of needs is the fundamental principle of classical demand theory, as
+shown with great clarity by J.-B. Say ([1828] 2010, p. 368) and as recognized by Dupuit
+(1849, p. 15), quoting Rossi’s exposition ([1840] 1865, Lesson 5, pp. 87-88). The hierar-
+chy of needs is partly objective, even universal. Thus, no good is valued higher than wa-
+ter, which serves a vital biological need; a diamond, serving an ornamental need, is val-
+ued lower, since one would be willing to give all diamonds at hand to survive. Yet the
+market prices for a cup of water and a diamond (or their objective exchange values) are
+inversely related to their subjective valuations—a paradox which is long-known to be
+10
+solved by the concept of scarcity, and which no classical economist regarded as an un-
+solved mystery (Inoua & Smith, 2020a). But the hierarchy of needs is in part subjective
+as well. At any rate, the economist takes a consumer’s needs as given.
+In summary, the classical value literature from Adam Smith to Jules Dupuit offers a con-
+sistent picture of demand, which Marshall attempted to reconcile with the newborn
+marginal school.14
+2.3 Classical cost and supply decision
+Cournot, who beautifully expounds the old view on demand in one fascinating para-
+graph ([1838] 1897, p. 50), goes on, however, to introduce an abstract theory of atom-
+istic profit-maximizing firms—which will become the standard view on supply in the
+hands of the marginalists. Like utility maximization, profit maximization thus conceived
+raises decision problems that actual firms hardly face; for example, it leads to an ill-de-
+fined supply function when marginal cost is nonincreasing (most manufactured prod-
+ucts?)15 or zero (information products such as software programs). The basic problem
+lies in the definition of the firm’s production possibility set as an unbounded set: thus, a
+firm facing a constant unit cost, for example, would be willing to supply an infinite
+amount of output when facing a price greater than the unit cost. Consider in contrast an
+actual firm under the same cost condition: granted that the firm’s maximum production
+capacity is finite, its supply decision is obvious: willing to supply every producible unit at
+any price greater than the unit cost.
+Prior to Cournot’s innovation, the discussion on supply decision seems to presume none
+other than the basic principle, taken for granted, of willingness to supply whenever it is
+11
+profitable to do so, that is, at any price beyond a minimum acceptable price (the mini-
+mum WTA). Like classical demand, classical supply is not explicitly and formally defined;
+yet it goes without saying, by definition of the concept of minimum price, which corre-
+sponds to the cost of production, or more precisely the cost of supplying the commodity
+to the market. Classical cost is the monetary evaluation of all the sacrifices the producer
+makes in order to supply the commodity, including the expectation of a minimum profit
+compensation (without which none would engage in the toil and trouble of producing).
+Regarding this monetary cost valuation, Adam Smith, and this is crucial, assumes none
+other than the actual practice of firms in their cost accounting: not only the obvious part,
+wages and the cost of raw materials (determined by market rates), but also the mone-
+tary estimate of the use of fixed capital (allowance for depreciation), and the producer’s
+minimum compensation, which is a subjective evaluation in general; but would expect
+at least the ‘ordinary profit’ in the industry. Adam Smith, who particularly emphasizes
+this actual practice of firms on many occasions, faces none of the technical complica-
+tions of later authors who will treat capital as a physical agent of production (the aggre-
+gation problem as it applies to fixed capital).16 Granted the cost valuation (a monetary
+evaluation of all expenses of production), which is the producer’s minimum WTA, the
+producer is willing to supply any unit at a price that covers at least the money cost: will-
+ingness to sell any unit whose cost is lower than the price. This inequality, as emphasized
+below, defines entirely the supply function: since market supply is the number of units
+that can be supplied profitably, it is given by the cumulative distribution function of the
+unit costs.
+2.4 Limitations of Marshall’s synthesis
+12
+Marshall’s insightful attempt to revive the classical method does not pay full justice to
+the old paradigm, due to his desire to integrate neoclassical utility theory into his treat-
+ment. For example, he defines the demand function as the surplus-maximizing quantity
+of a representative consumer that hypothetically buy by infinitesimal increments of the
+commodity, and he founded the law of demand on diminishing marginal WTP (or ‘de-
+mand price’); he defines supply similarly. This and other neoclassical imports play no
+essential role in the classical formulation, and none when Marshall is brought to a de-
+scription of price formation in a local country market. [Marshall ([1890] 1920, Book V,
+Chap. II) simply reverts to a WTP/WTA description of “higgling and bargaining” as we
+find it in A. Smith ([1776] 1904, Book I, Ch. VII).]
+Marshall ([1890] 1920, p. 64) acknowledges that economic reality is discontinuous in
+regard not only to the quantity of goods but also of individual behavior, but demand is
+smoothed, “in so far as the motives of that action are measurable by a money price;
+and in these broad results the variety and the fickleness of individual action are
+merged in the comparatively regular aggregate of the action of many”; a form of the
+law of large numbers. The motivation for this theoretical procedure is this other
+equally important principle of classical methodology noted in the introduction, which
+Cournot expressed in a most fascinating way ([1838] 1897, p. 50), and which consists
+more generally of investigating economic regularities as collective regularities emerg-
+ing by aggregation over agents. For the classical economists, this meant aggregation
+over the distribution of agents’ characteristics, and not just a hypothetical average
+agent, as Marshall did.
+Finally, we have Marshall’s deviation from the old school in regards to his dealing with
+wealth effects through his oft-discussed clause of constant marginal utility of wealth,
+13
+which may be erroneously interpreted to mean that thinking in terms of reservation
+price is a narrow case of the utility-function view; though Marshall in fact goes on to
+argue that variations in marginal utility of wealth, like the discontinuities of demand with
+respect to price variations, are of no significance on the aggregate of many consumers,
+with poor and rich, young and old combined (Marshall, [1890] 1920, pp. 15-16, 83).
+Space forbids to elaborate further on Marshall’s synthesis. Rather this paper concerns
+the restoration of the old school, on its own merits, bereft of Marshall’s attempted syn-
+thesis.
+3 Supply
+3.1 The market supply function
+Consider a market economy in which goods and services (including labor services) are
+traded at market prices A producer in any market is willing to sell any
+unit that can be produced profitably. Consider a given commodity, which we single out
+by not indexing it. In terms of cost, each unit of a commodity produced is characterized
+by the number of inputs from other commodities its production required, which we de-
+note generically as a vector17 and the input prices. Thus, the cost of a unit
+of a commodity is
+(1)
+Different units clearly may cost differently to produce since they may involve a different
+mix The producer would be willing to sell any unit at a price The function
+that associates to any price vector the total number of units of that commodity that
+[ a , p ] .
+p [
+a
+c
+p
+1
+, . . .
+[a
+,
+1
+p
+,
+n
+]n
+. . .
+ak
+.
+, a
+pk
+n
+k
+] ,
+a p .
+p c .
+14
+would be supplied, at this price vector, by all the producers in the market is, by defini-
+tion, the market supply function. It is by construction the cumulative distribution func-
+tion of unit costs, which is a non-decreasing step function of the market price, ceteris
+paribus:
+S(a,p) SF(a,p), (2)
+where by definition and is the total (maximum) supply
+capacity in the market (the total number of units that can be supplied, which would be
+fully supplied were the market price infinite); for a particular market, the distribution in
+question refers to the collection of all units of the same commodity.
+Figure 1: Market supply is the cumulative distribution of unit costs.
+The prices of inputs assumed fixed here: their changes corresponding
+to shifts of the supply curve.
+The relevant unit of analysis in supply theory is the supply for a unit of a commodity:
+if and S (p) 0,otherwise. The supply of a firm is simply is a list of
+j
+such elementary supplies: it is entirely specified by the number of units the firm can
+produce and the corresponding list of costs for each unit.
+S
+j
+( p ) 1 c
+j
+p ,
+F ( a , p ) ( c p ) S S ( a , )
+15
+3.2 The labor theory of value
+Unlike Ricardo (and his followers), Adam Smith mentioned only passingly the labor the-
+ory of value which applies only in rude societies:
+“In that early and rude state of society which precedes both the
+accumulation of stock and the appropriation of land, the proportion
+between the quantities of labour necessary for acquiring different
+objects seems to be the only circumstance which can afford any rule for ex-
+changing them for one another. If among a nation of hunters…it usually costs
+twice the labour to kill a beaver which it does to kill a deer, one beaver should
+naturally exchange for or be worth two deer…the produce of two days or two
+hours labour, should be worth double…the produce of one day's or one hour's
+labour.18 (Smith, [1976] 1904, p. 49)
+Ricardo himself makes it clear that the labor theory of value applies only when goods
+can be produced with homogenous labor, in abundant amounts, and at proportional
+costs (which excludes the complications of the diversity of fixed capital that Ricardo
+would later deal with); Ricardo later concedes that quantity of labor is the dominant (not
+the sole determinant) of price, at least in the long run. Both J.-B. Say and Malthus oppose
+Ricardo even regarding long-run value, which, as they point out, is determined by both
+supply and demand. Although historically Ricardo is perhaps the most influential of the
+classical economists, it is a mistake to view Ricardo’s formulation as a culmination of this
+school of thought; it is not true upon scrutiny that Ricardo was resolving inconsistencies
+in Adam Smith’s view; Ricardo was dealing with technical complications (the diversity of
+labor and fixed capital) that are precisely the reason why Adam Smith mentions only
+16
+passingly labor theory of value and goes on to develop (Book I, Ch. VII) the general the-
+ory of market price formation. For example, Ricardo deals with the diversity of labor
+following Adam Smith’s view that wage differentials are determined by the ‘higgling and
+bargaining’ of the market; but this is precisely why the relevant price theory in general
+is a theory of supply and demand. While this point is now commonplace in economics,
+yet Adam Smith in most commentaries on classicalism is overshadowed by Ricardo; and
+the classical school is still commonly reduced to the labor theory of value, although
+much of the controversies that opposed Ricardo to both Say and Malthus pertains pre-
+cisely to Ricardo’s reduction of this school of thought and his downplaying the role of
+demand in price theory. Let it be reminded that the labor theory of value is equivalent
+to assuming a Leontief price system, as known since the influential revival of Ricardo’s
+theory by Sraffa (1960); see Inoua and Smith (2020a).
+4 Demand
+4.1 The market demand function
+For a given commodity, let if a consumer considers commodity is more urgent
+than the commodity under consideration, and otherwise; let .
+Consumers differ in terms of hierarchy of needs h and wealthw.Let the distribution of
+these consumers’ attributes be referred to as . A unit of a commodity will be de-
+manded by a consumer if the money left out of his wealth, once more urgent needs are
+considered, can afford the unit: that is, if (w h p ) p.Thus the consumer’s valu-
+k k k
+ation of the commodity, as given by his maximum WTP for it (reservation price) is
+v w h p w hp. (3)
+k k k
+h
+k
+1
+[ h
+h
+, w
+k
+]
+0 ,
+k
+h [ h
+1
+, . . . , h
+n
+]
+17
+The consumer would be willing to buy every unit whose v p. The market demand
+function at any price is therefore the number of units of the good to which consumers
+attach a greater value than the price: it is by construction the complementary distribu-
+tion function of the consumers’ reservation prices, which is a non-increasing step func-
+tion of price, ceteris paribus, which we write generically:
+(4)
+where G(h,w,p) (v p)andD D(h,w,0) is the total (maximum) number of units
+of the good that consumers need (their overall demand were the market price zero).
+Figure 2: Market demand is the complementary distribution
+function of consumers’ valuations (or reservation prices).
+4.2 Remarks on a few conceptual distinctions
+Quantity: needed versus demanded versus bought
+The focus on the elementary demand for a unit of a good irrespective of the identity of
+the demander, is on purpose, as unit demand is the relevant unit of analysis. The total
+demand of a consumer is merely a list of unit demands: it is entirely specified by the
+D ( h , w , p ) D G ( h , w , p ) ,
+18
+number of units the consumer needs and their reservation prices. Let
+be the consumer’s demand function for commodity The demand (resp. supply) func-
+tion, be it reminded, indicates the quantity the consumer would demand were the con-
+sumer facing any arbitrary price p. The total quantity needed is 19 It is
+a different concept from the quantity the consumer succeeded to actually buy, which
+depends on the extent of competition in the market. The distinction more generally be-
+tween quantity demanded or supplied (willingness to trade) and the quantity actually
+traded is of utmost importance: serious paradoxes and conceptual obstacles in the ne-
+oclassical theory of price formation can be shown to be due to failure to acknowledge
+explicitly actual trades as a conceptually district notion from a supply and demand func-
+tion, which summarize all willingness to buy and sell at any possible price; since Walras,
+for example, it is common to treat supply and demand as if always fulfilled into actual
+trades, which would be the case only in equilibrium.
+Complements and substitutes
+Realistically, the relationship among commodities are binary. Consider two commodities
+and k viewed from the consumer’s viewpoint. By definition, the two goods are com-
+plementary if they jointly serve the same need, and hence are jointly demanded:
+implies and vice versa. They are substitutes if they serve the same need, but in-
+terchangeably, so that demand for one excludes demand for the other: implies
+d 0, and vice versa. In both cases, demand for one good derives logically from de-
+k
+mand for the other: theoretically, therefore, all substitutes, on the one hand, and all
+complements, on the other, can be treated mathematically as forming one class of
+i
+d
+k
+0 ,
+i .
+d
+i
+d
+d
+i
+i
+( h
+i
+d
+d
+,W
+i
+i
+(
+,
+h
+0
+0
+,Wi
+) .
+d
+i
+, p )
+0
+19
+goods, of which knowledge of one element is like knowledge of the whole. Thus, we are
+left with the hierarchical relation among goods as the essential notion in demand deci-
+sion: good is more urgent than good if implies
+4.3 The pyramidal model of market demand
+The law of demand and the law of supply, as we saw (Figure 1 and Figure 2), hold by
+construction, in the sense that market demand and market supply are, respectively,
+nonincreasing and nondecreasing (step) functions of price, ceteris paribus. This weak
+version of the two laws is all that the theory of price formation requires in general (Inoua
+& Smith, 2020b). But stronger versions can also be derived under minimum assump-
+tions, as the French classical20 economists emphasize; we derive them formally now.
+For partial-equilibrium purposes, let wealth distribution and the prices of related goods
+be given. In a sufficiently large market, as Cournot beautifully emphasized ([1838] 1897,
+p. 50), market demand (resp. market supply) can be assumed to be a smoothly decreas-
+ing (increasing) function of price. A large market can be formally defined as an idealized
+version of a market that involves a sufficiently large number of distinct values and costs
+modeled by continuous density functions supported on continuums. Formally, a large
+market is therefore one for which the distribution of costs and values are modeled by
+the continuous density functions and supported on the intervals and
+respectively, over which the density functions are strictly positive by defini-
+tion. It then follows by construction SF'(p) 0 and
+on the respective supports.
+Now, consider a market in isolation, setting hp 0 in (3), so that v w and
+G(h,w,p) G(p) (w p),so that market demand is given by the distribution of
+[v
+m in
+, v
+m a x
+]
+i
+F '
+S
+k
+/
+d
+G
+p
+i
+'
+0 d
+k
+0 .
+D / p
+[c
+m
+D
+in
+G
+, c
+m
+'(
+a
+p
+]x
+) 0
+20
+wealth across consumers, which Garnier, Say, and Dupuit represented as a pyramid (Fig-
+ure 3), whose top represents the wealthy minority and whose base represents the poor
+majority: more generally, the pyramid represents the distribution, not of wealth per se,
+but of the portion of wealth each consumer would be willing to pay for the commodity
+(Garnier, [1796] 1846, pp. 195-196; Say, [1828] 2010, p. 370, footnote 1). The pyramidal
+assumption in formal and general terms simply means a decreasing probability density
+of wealth or WTP more generally, so that market demand is a convex function
+of price, as Dupuit insightfully observed (1844, pp. 367-368). Unlike the law of demand
+proper, however, this convexity property, sometimes referred to as Dupuit’s second
+‘law’ of demand (Ekelund Jr & Thornton, 1991; Humphrey, 1992 )21, is true only to the
+extent that the pyramidal assumption is true: it is not essential to price theory.
+Figure 3: Pyramidal model of market demand (Garnier, Say, Dupuit). The pyra-
+mid (left) represents the distribution in society of wealth (top=the wealthiest,
+bottom=the poorest), or more precisely the distribution of consumers’ WTP.
+Market demand, at each price, is measured by the cross-sectional area of the
+pyramid corresponding to the price. If price is zero, all consumers can afford the
+good; as price increases, a lower and lower fraction of society can afford the
+good; and beyond some maximum value (125), none can afford the good.
+G '' 0 ,
+21
+Figure 4: Triangular market demand model (2-dimensional version the pyram-
+idal model): market demand is the length of the segment XY: it is a linear func-
+tion (as can be proven from elementary geometry). The pyramidal market de-
+mand (3-dimentiomal) is simply the square of this triangular market demand.
+For illustration, assume (following Garnier, Say, and Dupuit) a square pyramid (Figure 3):
+then market demand is simply the square of its two-dimensional image (Figure 4), ob-
+tained by reducing the pyramid to a triangle, and the cross-sectional areas of the pyra-
+mid to segment lengths. It can be shown from elementary geometry [Thales’s (intercept)
+and Pythagoras’s theorems] that
+(5)
+This corresponds to a uniform probability distribution of consumers’ reservation prices
+supported on [The extension to the general case is straightforward:
+G(p) (v p)/(v v ).] The two-dimensional, pyramidal, model yields (as-
+max max min
+suming again a square pyramid)
+(6)
+which is indeed a (strictly) convex demand function. It should be insisted that the law of
+demand, even in its smooth version, holds for any continuous probability distribution of
+[ 0 , v
+m a x
+]
+G
+.
+( p )
+G
+D
+D
+(
+(
+(
+p
+p
+0
+)
+)
+)
+(
+v
+X
+B
+m
+Y
+C
+a xv
+m a x
+p
+v
+)
+m av
+2 ,
+x
+m a x
+p
+.
+[v
+m in
+, v
+m a x
+]
+22
+consumer valuations; it is only the secondary, convexity, property that requires the py-
+ramidal assumption 22
+Although this probabilistic view on demand (based on the distribution of consumers, as
+ranked in different orders of society based on WTP, or, as we would say today, in differ-
+ent statistical classes), was first formalized in the French literature, it was in fact implicit
+throughout the classical school: thus Adam Smith was implicitly treating consumers in
+that way when, for example, he observed in his Lectures that ‘everything is dearer or
+cheaper according as it is the purchase of a higher or lower set of people’ (A. Smith,
+[1763] 1869, p. 177).
+5 Conclusion
+The classical economists mostly adopted the same realistic view of the market economy;
+not that they concurred to it by an explicit a priori methodological commitment; but,
+rather, they concurred to it because they were essentially adopting the same mentaliz-
+ing process, which consists, first of all, of carefully observing everyday economic life, and
+then deriving from this acute observation, deep emergent regularities that are unin-
+tended consequences of these ordinary individual behaviors and interactions. J.-B. Say
+explained this classical methodology with great clarity in his Cours complet (and com-
+plained that Ricardo at times deviated from it).23
+But in place of this realistic methodology, the early neoclassical economists substituted
+a-priori axiomatic theorizing, whereby a theorist starts beforehand with a set of axioms
+(for example: pleasure explains every move in human behavior) and from these abstract
+premises, constructs through a chain of formal deductions an imaginary economy (often
+populated by a single player: Robinson Crusoe); and even after the axioms have proved,
+G '' 0 .
+23
+upon more scrutiny, to be empirically empty by the barrenness of their implications, the
+as-if theorist finds further refuge in fiction, and an excuse for holding onto these axioms.
+Thus, price-taking behavior, for example, was recognized from the very beginning to be
+a dead end as a premise for a theory of competitive market price formation (for if eve-
+ryone in the economy takes price as given, where do these prices come from in the first
+place?) Yet in the face of this dead end, an early evasion simply assumed a perfect mar-
+ket in which supply and demand and the consequent equilibrium price are perfect
+knowledge to every trader beforehand (Jevons, [1871] 1888). A second, now-standard,
+escape consists of simply postulating the existence of a fictional auctioneer who seeks
+all equilibrium prices by trial and error (Walras, [1874] 1954).24 In the same spirit, the
+aggregation problem of neoclassical demand is evaded through the representative-con-
+sumer assumption.
+References
+Arrow, K. J. (1986). Rationality of self and others in an economic system. Journal of
+business, S385-S399.
+Blinder, A. S., Canetti, E. R., Lebow, D. E., & Rudd, J. B. (1998). Asking about prices. Russel
+Sage Foundation, New York.
+Chamberlin, E. H. (1948). An Experimental Imperfect Market. Journal of political
+economy, 56(2), 95-108.
+Cournot, A. A. ([1838] 1897). Researches into the Mathematical Principles of the Theory
+of Wealth. London: Macmillan.
+Crockett, S., Friedman, D., & Oprea, R. (2019). Revealed Preferences and General
+Equilibrium: A Laboratory Study. Working paper.
+24
+De Quincey, T. (1844). The Logic of Political Economy. Edinburgh and London: William
+Blackwood and Sons.
+Debreu, G. (1974). Excess demand functions. Journal of mathematical economics, 1(1),
+15-21.
+Dupuit, J. (1844). De la mesure de l'utilité des travaux publics Annales des ponts et
+chaussées(116), 332-375.
+Dupuit, J. (1849). De l'influence des péages sur l'utilité des voies de communication.
+Annales des ponts et chaussées(207), 170-248.
+Ekelund Jr, R. B., & Hébert, R. F. (1999). Secret origins of modern microeconomics: Dupuit
+and the engineers. Chicago and London: University of Chicago Press.
+Ekelund Jr, R. B., & Thornton, M. (1991). Geometric analogies and market demand
+estimation: Dupuit and the French contribution. History of Political Economy, 23(3),
+397-418.
+Ferguson, Adam (1782) An Essay in the History of Civil Society. London: T. Cadell.
+https://oll.libertyfund.org/titles/ferguson-an-essay-on-the-history-of-civil-
+society?q=human+design#Ferguson_1229_344
+Garnier, G. ([1796] 1846). Abrégé élémentaire des principes de l'économie politique.
+Paris: Agasse.
+Grandmont, J.-M. (1987). Distributions of Preferences and the "Law of Demand".
+Econometrica, 155-161.
+Hildebrand, W. (1994). Market Demand: Theory and Empirical Evidence. Princeton:
+Princeton University Press.
+Hildenbrand, W. (1983). On the "law of demand". Econometrica, 997-1019.
+25
+Humphrey, T. M. (1992 ). Marshallian cross diagrams and their uses before Alfred
+Marshall: the origins of supply and demand geometry. Economic Review, Federal
+Reserve Bank of Richmond(Mar/Apr), 3-23.
+Inoua, S. M., & Smith, V. L. (2020a). Adam Smith’s Theory of Value: A Mathematical
+Statement of his Market Price Discovery Process. ESI Working Papers, February
+2020(20-10). Retrieved from
+https://digitalcommons.chapman.edu/esi_working_papers/304/
+Inoua, S. M., & Smith, V. L. (2020b). The Classical Theory of Price Formation ESI Working
+Papers.
+Jevons, W. S. ([1871] 1888). The Theory of Political Economy London: Macmillan.
+Keen, S. (2011). Debunking economics–Revised, expanded and integrated edition: The
+naked emperor dethroned. In: London: Zed Books.
+Kirman, A. (1989). The intrinsic limits of modern economic theory: the emperor has no
+clothes. The Economic Journal, 99(395), 126-139.
+Kirman, A. P. (1992). Whom or what does the representative individual represent? The
+Journal of Economic Perspectives, 117-136.
+Malthus, T. R. ([1820] 1836). Principles of Political Economy Considered with a View to
+their Practical Application. London: Pickering.
+Mantel, R. (1974). On the characterization of aggregate excess demand. Journal of
+Economic Theory, 7(3), 348-353.
+Marshall, A. ([1890] 1920). Principles of Economics (8 ed.). London Macmillan.
+Maslow, A. H. (1943). A theory of human motivation. Psychological review, 50(4), 370-
+396.
+26
+Mill, J. S. ([1848] 1909). Principles of Political Economy with some of their Applications
+to Social Philosophy
+(W. J. Ashley Ed. 7 ed.). London: Longmans, Green
+Mill, J. S. ([1848] 1965). Principles of Political Economy with some of their Applications
+to Social Philosophy (Volume III of The Collected Works of John Stuart Mill: Books III-V
+and Appendices). Toronto, London: University of Toronto Press, Routledge and Kegan
+Paul.
+Rizvi, S. A. T. (2006). The Sonnenschein-Mantel-Debreu results after thirty years. History
+of Political Economy, 38, 228.
+Rossi, P. ([1840] 1865). Cours d’économie politique (4 ed. Vol. I). Paris: Guillaumin.
+Roth, A. E., & Kagel, J. H. (1995). The handbook of experimental economics (Vol. 1).
+Princeton, New Jersey: Princeton University Press
+Say, J.-B. (1803 [2006]). Traité d'économie politique ou simple exposition de la manière
+dont se forment, se distribuent et se consomment les richesses (Vol. 2). Paris:
+Economica.
+Say, J.-B. ([1828] 2010). Cours complet d'économie politique pratique (Vol. 1). Paris:
+Economica.
+Shafer, W., & Sonnenschein, H. (1993). Market demand and excess demand functions.
+Handbook of Mathematical Economics, 2, 671-693.
+Shaikh, A. (2012). Rethinking Microeconomics: A Proposed Reconstruction. New School
+for Social Research Department of Economics Working Paper, 2012(06).
+Smith, A. ([1763] 1869). Lectures on justice, police, revenue and arms (or Lectures on
+Jurisprudence) (E. Cannan Ed.). Oxford: Clarendon
+Smith, A. ([1776] 1904). The Wealth of Nations (E. Cannan Ed.). London: Methuen.
+27
+Smith, A. ([1759 1976). The Theory of Moral Sentiments. (D. Raphael and A. Macfie Eds.).
+Oxford: Oxford University Press.
+Smith, V. L. (1962). An experimental study of competitive market behavior. Journal of
+political economy, 70(2), 111-137.
+Sonnenschein, H. (1972). Market excess demand functions. Econometrica, 549-563.
+Sonnenschein, H. (1973a). Do Walras' identity and continuity characterize the class of
+community excess demand functions? Journal of Economic Theory, 6(4), 345-354.
+Sonnenschein, H. (1973b). The utility hypothesis and market demand theory. Economic
+Inquiry, 11(4), 404-410.
+Sraffa, P. (1960). Production of Commodities by Means of Commodities: Prelude to a
+Critique of Economic Theory (Indian 1963 ed.). Bombay: Vora & Co.
+Trockel, W. (1984). Market demand: an analysis of large economies with non-convex
+preferences: Springer Verlag.
+Walras, L. ([1874] 1954). Elements of Pure Economics (W. Jaffé, Trans.). New York: Kelly.
+1 In the standard undergraduate intermediate theory course the consumer
+chooses units (x1, x2) of goods defined on a continuous commodity space
+to Max U (x1, x2) [increasing and concave in (x1, x2)] subject to I = p1x1 +
+p2x2, given (U, I, p1, p2). Every aspect of this model is contrary to the clas-
+sical economic model, wherein: (1) the consumer chooses only discrete
+units of goods [the primary meaningful application to continuous action
+spaces is in finance]; (2) if income is fixed and constrains choice, wealth is
+stationery, but the classical economists saw as their end and purpose to
+inquire as to the nature and causes of the wealth of nations; (3) prices and
+income were to be determined in the market, and were not given to it; (4)
+U was a hidden variable to the classics, but people in markets revealed that
+28
+they had willingness to pay demand valuations for goods, and for inputs to
+supply goods, and these were central to their analysis.
+2 That is, the Sonnenschein-Mantel-Debreu theorem (Sonnenschein, 1972,
+1973a, 1973b; Debreu, 1974; Mantel, 1974; Shafer & Sonnenschein, 1993;
+Rizvi, 2006).
+3 This abstract revival of the law of demand as an aggregate regularity, sys-
+tematically explored in Hildebrand (1994), can be viewed as part of the gen-
+eral ‘regularity by aggregation’ literature, which seeks to solve the multiple
+indeterminacy of neoclassical theory (e.g. the indeterminacy of demand
+when preferences are non-convex). For an overview of this literature, see
+Trockel (1984).
+The probabilistic view on demand has in fact resurfaced in different other
+forms even before the SMD crisis; for example, Becker’s intuition that even
+impulsive or random consumer choice constrained by a budget would obey
+the law of demand by aggregation, independently of utility maximization
+(Becker, 1962); for a recent revival of this view, see (Shaikh, 2012); for a
+recent experimental exploration in a general-equilibrium context, see
+Crockett, Friedman, and Oprea (2019).
+4 Classical market price theory is not to be confounded with the labor theory
+of value, on which Ricardo insisted, and which is a diversion from the gen-
+eral classical theory of price formation; the precise conditions under which
+the labor value theory applies are restated in 3.2; for a formal derivation
+see Inoua and Smith (2020a).
+5 “[N]ations stumble upon establishments, which are indeed the result of
+human action, but not the execution of any human design” (Ferguson,
+1782, p 205)
+6 A follow-up paper will present a theory of price formation that is rooted
+in the classical view on competition and relates that view to experimental
+findings on market behavior. Other more preliminary papers tackle obsta-
+cles and limitations of the classical literature, which may seriously impede
+or even discourage the modern reader’s assessment of the old literature,
+and explains the articulation of value theory in the classical school: the tech-
+nical jargon of classical economics (natural price, monopoly price, effectual
+29
+demand); the endless classical controversies regarding essentially unsolva-
+ble, metaphysical, issues (the invariable measure of value and the ultimate
+cause of value); these controversies can mislead the modern reader into
+seeing irreconcilable divergences in the classical school (and whose unity
+may thereby be questioned).
+7 None of the protagonists of this old utility-versus-cost controversy denied
+that market price is determined jointly by utility and cost: ‘Almost all writers
+have agreed substantially, and have rightly agreed, in founding exchangea-
+ble value upon two elements, -power in the article valued to meet some
+natural desire or some casual purpose of man [utility], in the first place, and,
+in the second place, upon difficulty of attainment [cost]. These two ele-
+ments must meet, must come into combination, before any value in ex-
+change can be established.’ (De Quincey, 1844, p. 13).
+8 Following the classical terminology, Marshall ([1890] 1920, p. 282) distin-
+guishes between real cost (pain, effort, difficulty of producing a product)
+from money cost (the monetary valuation of the real cost: the expenses of
+production, including a minimum profit requirement). Today we take for
+granted the fact that cost of production (difficulty of production) is meas-
+ured by the monetary sacrifices the producer makes (the expense of pro-
+duction). Yet this principle (which applies to the demand side as well) will
+be adopted in the neoclassical school only as a shortcut or a concession,
+Thus, Jevons’s program, a pure subjectivism, aimed at explaining value en-
+tirely in terms of pleasure (utility, demand) and its negation, pain or effort
+(disutility of labor, supply).
+9 Marshall explains this often-overlooked classical principle in a systematic
+way throughout his famous Principles of Economics ([1890] 1920), particu-
+larly in Book I, Ch. II, and makes it clear that its paternity originates with
+Adam Smith, and his “unsurpassed powers of observation”. Marshall did
+not realize, however, that all the classical economists, as they followed in
+Smith’s footsteps, reached the same conclusion, that value theory should
+be founded on people’s monetary valuations. With hindsight, it was a major
+editorial mistake on the part of Marshall to have moved the section on the
+30
+history of economics—in which he clearly explains the classical paternity of
+this principle—to the Appendix, in response to the public demand for mak-
+ing the first parts of his book less tedious.
+10 The references are G. Garnier ([1796] 1846, pp. 195-196); J.-B. Say (1803
+[2006], vol. 2, bk. 2, chap. 1; [1828] 2010, vol. 1, part 3, chap. 4), particularly
+the later book, the Cours complet, which synthetizes and extends the ma-
+terial covered in Say’s earlier books; P. Rossi ([1840] 1865, Vol. I, Lesson 5);
+A. A. Cournot ([1838] 1897, chap. 4), and J. Dupuit (1844, 1849). Many of
+the relevant passages of this French literature on demand and value are
+quoted in (Ekelund Jr & Hébert, 1999).
+11 On more of the methodological innovations of Cournot, see Smith and
+Inoua (2019).
+12 The classical concept of WTP is out of wealth, not income. The idea of
+income as a constraint on commodity choice is conceptually a blatant neo-
+classical error. Modeling choice in the current period only makes static
+sense if one of the goods is variable and constitutes saving—not consum-
+ing—with personal value in the current period; otherwise, the action set is
+not closed and part of the dynamics of wealth accumulation. For Adam
+Smith that value is security, which he saw as protection against downside
+loss: “We suffer more…when we fall from a better to a worse situation, than
+we ever enjoy when we rise from a worse to a better. Security, therefore,
+is the first and the principal object of prudence.” (Smith, 1759, p. 213)
+13 More than a century later, A. Maslow (1943) offers a famous psychologi-
+cal theory of the pyramid of needs.
+14 Marshall perhaps first noticed the classical methodology through his read-
+ing of Cournot and Dupuit, whose influences on him he acknowledged
+([1890] 1920, p. 85, footnote 1). The remarkable thing is his seeing the con-
+nection with the classical school more generally and tracing its origin back
+to Adam Smith.
+15 It was common belief in the classical literature that most (manufactured)
+goods are produced at constant or decreasing unit costs (production on a
+31
+large scale leads to efficiency gains because it promotes a better division of
+labor, for example); only agricultural produce and mined resources were
+believed to command increasing unit costs. See, for example, Mill ([1848]
+1965, p. 464 ff.) Various modern surveys suggests that increasing marginal
+costs are indeed exceptional in practice: it seems, according to one survey
+of the US economy, that ‘only 11 percent of GDP is produced under condi-
+tions of rising marginal cost.’ (Blinder, Canetti, Lebow, & Rudd, 1998) For a
+discussion of these issues with neoclassical supply theory, see Keen (2011,
+Part I, Ch. 5).
+16 This assessment of the producer’s minimum price through a realistic cost
+valuation is clearly stated throughout Wealth of Nations, starting from Ch.
+7 of Book I ([1776] 1904, p. 50). It is repeated countless times in specific
+contexts. For example: ‘When any expensive machine is erected the ex-
+traordinary work to be performed by it before it is worn out, it must be
+expected, will replace the capital laid out upon it, with at least the ordinary
+profits.’ (p. 103) Or elsewhere: ‘The lowest price at which coals can be sold
+for any considerable time, is, like that of all other commodities, the price
+which is barely sufficient to replace, together with its ordinary profits, the
+stock which must be employed in bringing them to market.’ (p. 168) This
+view would appear throughout the classical literature. Marshall ( [1890]
+1920, p. 299) also clarifies this cost valuation of firms.
+17 More precisely a matrix with double entry, in more explicit notation; but
+by fixing the commodity under study, the notation is simplified from dis-
+tracting indices.
+18 A source of confusion, perhaps, is the distinction between the labour the-
+ory of value and the concept of labour as a measure of value, developed by
+Smith. Thus, “The value of any commodity…to the person who possesses it,
+and who means not to use or consume it himself, but to exchange it for
+other commodities, is equal to the quantity of labour which it enables him
+to purchase or command. Labour, therefore, is the real measure of the ex-
+changeable value of all commodities.” (Smith [1776, 1904, p 32)
+32
+19 Adam Smith introduces the distinction ‘absolute demand’ versus ‘effec-
+tual demand’ to reflect the nuance between quantity needed or desired and
+quantity effectively demanded (determined by need, constrained by
+wealth). An explanation of the technical classical jargon (absolute versus
+effectual demand; natural versus monopoly price, etc.) can be found in
+Inoua and Smith (2020a).
+20 By now, there should be no reason for hesitating to refer to all of them
+simply as classical economists.
+21 Dupuit emphasized, besides the standard law of demand proper (as price
+drops, quantity demanded increases), a so-called second ‘law’ (Ekelund Jr
+& Thornton, 1991; Humphrey, 1992 ): the increase in demand due to a price
+drop is the higher, the lower the initial price: that is, the second derivative
+of the demand function is positive, which, as Dupuit justified intuitively, and
+as formally proven in the text, derives from the pyramidal assumption.
+22 This nuance is missing in the original literature, and understandably so,
+since back then even the basic difference between continuity and differen-
+tiability (let alone probability density function versus cumulative probability
+function) have yet to be well-understood, as Cournot’s characterization of
+continuity at one point in his book attests ([1838] 1897, p. 50, phrase
+italicized).
+23 J.-B. Say discusses the methodology underlying classical economics in the
+opening Considerations générales of the Cours complet ([1828] 2010, pp. 3-
+61).
+24 Walras merely set the stage for this fiction: the explicit introduction of
+the imaginary auctioneer in the theory of tatonnement came later.

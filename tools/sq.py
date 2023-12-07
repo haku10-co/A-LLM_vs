@@ -10,7 +10,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
 
 # URLからHTMLを取得
-url = "https://edition.cnn.com/2023/12/03/climate/cop28-al-jaber-fossil-fuel-phase-out/index.html"
+url = "https://jp.quora.com/%E3%83%A2%E3%83%86%E3%82%8B%E7%94%B7%E3%82%92%E3%81%A8%E3%81%93%E3%81%A8%E3%82%93%E7%A0%94%E7%A9%B6%E3%81%97%E3%81%9F%E6%9C%AB%E3%81%AE%E7%B5%90%E8%AB%96%E3%81%AF%E3%81%AA%E3%82%93%E3%81%A7%E3%81%99%E3%81%8B"
 response = requests.get(url)
 response.encoding = 'utf-8'
 soup = BeautifulSoup(response.text, 'html.parser')
@@ -35,8 +35,13 @@ if not os.path.exists(dataset):
 valid_chars = "-_.() %s%s" % (string.ascii_letters, string.digits)
 clean_title = ''.join(c for c in title if c in valid_chars)
 
+# タイトルが長すぎる場合は、最初の50文字だけを使用する
+max_length = 50
+if len(clean_title) > max_length:
+    clean_title = clean_title[:max_length]
+
 # リストと本文をテキストファイルに保存
-with open(os.path.join(dataset, f'{clean_title}_full.txt'), 'w', encoding='utf-8') as f:
+with open(os.path.join(dataset, f'{clean_title}.txt'), 'w', encoding='utf-8') as f:
     f.write(title + '\n' + body)
     for list_item in lists:
         f.write(list_item + '\n')

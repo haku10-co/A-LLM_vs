@@ -1,0 +1,931 @@
+Topological densities in
+Einstein-scalar-Gauss-Bonnet gravity
+M. Bousder1∗ and Z Sakhi2
+1
+Faculty of Science, Mohammed V University in Rabat, Rabat, Morocco
+2
+Quantum Physics and Applications Team, LPMC, Faculty of Science Ben M’sik,
+Casablanca Hassan II University, Morocco
+April 4, 2023
+Abstract
+The present work is devoted to studying the background dynamical evolution
+of a scalar field in Einstein-Gauss-Bonnet gravity in maximally symmetric space-
+time. This study is useful for giving meaning to the presence of two Gauss-Bonnet
+vacua, instead of using the spherically symmetric bubbles of the ”true” vacuum
+expand in the ”false” vacuum. The theory admits two possible effective cosmo-
+logical constants, which lead to two maximally symmetric vacuum solutions. The
+first solution corresponds to the dynamics of dark energy. When there is matter,
+the second solution describes dark matter. In Einstein-Gauss-Bonnet gravity, we
+establish the expression of the topological mass spectrum which depends on the
+golden ratio and its inverse. In the Schwarzschild limit, the topological density
+correspondsto the standard model radiation energy density. We find the mass loss
+rate which gives the evolution of mass over time.
+1 Introduction
+The observations of the rotation of galaxies and gravitational lenses indicate the pres-
+ence of a new mass, called dark matter (DM) hiding in galaxies, which does not interact
+with radiation and matter, but can be detected by its gravitational effect. The ΛCDM
+model is a cosmological model, parametrized by a cosmological constant Λ associated
+with cold dark matter. It is often called the standard Big Bang model because it is the
+∗mostafa.bousder@gmail.com
+1
+3202
+rpA
+1
+]cq-rg[
+1v22300.4032:viXra
+simplest model that accounts for the properties of the cosmos: the large-scale structure
+of the observable universe and the distribution of galaxies, the abundance of light ele-
+ments (hydrogen, helium and lithium) and the expansion of the universe. ΛCDM model
+assumes that general relativity theory correctly describes gravity on a cosmological scale.
+However, theΛCDM model presents several problems, such asthecosmological constant,
+fine-tuning problem, and the problem of cosmic coincidence [1]. Recent developments of
+non-trivial extension of Lovelock theory, namely Einstein-Gauss-Bonnet (EGB) theory
+have been proposed [2], providing new insights into the 4-dimensional theory of gravity
+[3]. Their idea is that before taking the limit D 4, they multiplied the Gauss-Bonnet
+−→
+(GB) term by the factor 1/(D 4). The divergent factor 1/(D 4) is canceled by the
+− −
+vanishing GB contributions, which leads to a theory of gravity with only two dynamical
+degrees of freedom, which is in contradiction with Lovelock theorem [4] which describes
+the gravity at D 5. However, it was shown in several papers that the idea of the limit
+≥
+D 4 is not clearly defined, as well as the absence of proper action [5, 6, 7, 8]. It
+−→
+was explicitly confirmed by a direct product D-dimensional spacetime or by adding a
+counter term, before taking the limit D 4, which can be seen as a class of Horndeski
+−→
+theory [9] but with 2 + 1-dofs. Although the EGB gravity is currently debatable, the
+spherically symmetric black hole solution is still meaningful and worthy of study [10].
+The 4D symmetrical static and spherical black hole solution in EGB gravity were ob-
+tained [11], also, solutions of static and spherically symmetric compact stars [12, 13, 14].
+Many researchers have studied the mass-radius profile and the maximum mass in EGB
+gravity [15, 16]. Consequently, it is possible to describe the matter inside compact ob-
+jects (COs) and the dynamical evolution of the matter at high density and the behavior
+of violent events. The Einstein-scalar-Gauss-Bonnet (EsGB) gravity [17], are the class of
+classical scalar-tensor theories that have second-order EOMs, as a special case the Horn-
+deski gravity [18]. The EGB gravity admits two maximally symmetric vacuum solutions
+as the Einstein vacuum in α 0, and the Gauss-Bonnet vacuum in α = 0 [19, 20]. Pre-
+→ 6
+vious studies [21] including the effect of varying the cosmological constant, showed that
+the correspondence between ordinary thermodynamic systems and black hole mechanics
+would be completed to include a variable cosmological constant. The bubble nucleation
+probability depends on the curvature coupling of the Higgs fields, which is a renormal-
+izable parameter of the Standard Model (SM) in curved spacetime [22]. In the effective
+field theory, the thermal and quantum fluctuations to overcome the barrier are charac-
+terized by the decrease of the vacuum. The bubble nucleation in thermal fluctuations
+can be described in terms of Euclidean time coordinate by instantons [23]. The action of
+the Coleman-de Luccia instanton determines the rate of vacuum decay [24]. The classic
+solutions for switching from a false vacuum to a true vacuum are called instantons. We
+2
+suppose that the Boltzmann constant k , the reduced Planck constant ~ and light speed
+B
+c, are such that: k = ~ = c = 1.
+B
+We begin in section 2 with a discussion of the equation of motion for a coupling between
+a scalar field and the model. the chameleon mechanism andthe scalaron mass areinvesti-
+gated in section 3. Section 4 is devoted to the two branches of solutions for the effective
+cosmological constant in a maximally symmetric vacuum. In Section 5, we study the
+scalar dark matter in the exterior region of CO by the EsGB and the regions of validity
+of the GB functional coupling. In Section 6, we explore the applications for the 4D
+Einstein-Gauss-Bonnet black hole. Finally, the paper ends in Section 7 by summarizing
+our main results.
+2 Einstein-scalar-Gauss-Bonnet gravity
+We start by the action of Einstein-scalar-Gauss-Bonnet (EsGB) gravity [25, 26] in 4-
+dimensions as
+M2
+= d4x√ g p R+f (φ) + + , (2.1)
+DM m
+S − 2 G L S
+Z (cid:18) (cid:19)
+where S is the matter action, M = c4 2 1018[GeV], R is the Ricci scalar, f (φ)
+m p 8πG ≈ ×
+is a Gauss-Bonnet coupling function, which is ultraviolet (UV) corrections to Einstein
+theory. We define the Gauss-Bonnet invariant [27] as
+= R2 4R Rµν +R Rµνρσ. (2.2)
+µν µνρσ
+G −
+The variation with respect to the field φ gives us the equation of motion for the scalaron
+field
+(cid:3)φ ∂ V (φ)+ ∂ f (φ) = 0. (2.3)
+φ φ
+− G
+The variation of the action over the metric g simplified by the Bianchi identity gives
+µν
+the equations of motion in [25]. In the Jordan frame, the scalar DM Lagrangian reads
+[28]
+1
+= gµν∂ φ∂ φ V (φ) (2.4)
+DM µ ν
+L −2 −
+the kinetic term is invariant under the transformation φ φ of the Z symmetry. The
+2
+→ −
+metric of a spatially flat homogeneous and isotropic universe in FLRW model is given
+by:
+3
+ds2 = dt2 +a2(t) dxi 2 , (2.5)
+−
+i=1
+X(cid:0) (cid:1)
+3
+where a(t) is a dimensionless scale factor, from which we define the Ricci scalar R and
+the GB invariant in FLRW geometry as
+G
+R = 6 2H2+H˙ = 24H2 H˙ +H2 . (2.6)
+G
+(cid:16) (cid:17) (cid:16) (cid:17)
+˙
+We start by considering φ = φ(t). where φ = ∂ φ, f (φ) = ∂ f (φ) and H = a˙/a is the
+t ′ φ
+Hubble parameter. Eq.(2.3) can be written as the Klein Gordon equation in a simple
+form
+φ¨ +3H φ˙ 8f (φ)H H˙ +H2 +V (φ) = 0. (2.7)
+′ ′
+−
+h (cid:16) (cid:17)i
+3 Scalaron mass in EsGB gravity
+Recently, there has been a renewed interest in the relationship between dark matter and
+the scalaron mass (i.e. the mass of fields φ) [31]. We will study later the scalaron mass
+m which will describe the dark matter. To describe the mass of any scalar field, we use
+φ
+the Klein-Gordon equation (cid:3)φ = ∂ V (φ). Note that Eq.(2.3) gives the same form as
+φ eff
+in the last equation. Since in Eq.(2.3), does not depend on φ, in this case, the effective
+G
+potential is evaluated as follows
+V (φ) = V (φ) f (φ) . (3.1)
+eff
+− G
+We notice that the effective potential of the scalaron includes the Gauss-Bonnet coupling
+and the Gauss-Bonnet invariant. In other words, the Gauss-Bonnet term affects the
+potential structure of the scalaron; thus, the scalaron mass depends on the matter’s
+contribution. The particles of the field φ come from the fluctuation around the minimum
+of the effective potential V (φ). The mass of small fluctuations around φ Eq.(??)
+eff min
+give the scalaron mass [55] is determined as
+∂2
+m2 = V (φ ), (3.2)
+φ ∂φ2 eff min
+where V (φ ) as a minimum value of the scalaron effective potential V . Also we
+eff min eff
+have =
+∂ φ2V(φ) ∂ φ2Veff(φ)
+. To make progress, let us express the in a more convenient
+G ∂ φ2f(φ) − ∂ φ2f(φ) G
+form
+∂2V (φ ) m2
+φ min φ
+= . (3.3)
+G ∂2f (φ ) − ∂2f (φ )
+φ min φ min
+For f (φ) = f ekφ and V (φ) = V e kφ[25, 3] we obtain
+0 0 −
+m2
+φ
+f (φ ) = V (φ ) , (3.4)
+min G min − k2
+From Eqs. (3.1, 3.3), we get
+m2
+φ
+V (φ ) = . (3.5)
+eff min k2
+4
+where ∂2 = ∂2/∂φ2 and V as a minimum value of the scalaron effective potential
+φ eff,min
+V . The minimum of the potential at φ = φ should satisfy ∂ V (φ ) = 0. It is
+eff min φ eff min
+shown that scalar fields can explain the abundance of dark matter. The scalaron mass
+change according to the trace of the energy-momentum tensor [33]. The minimum of the
+potential at φ = φ should satisfy ∂ V (φ ) = 0, which give a special value of the
+min φ eff min
+GB invariant as
+V
+= 0 e 4R0φmin (3.6)
+−
+G −f
+0
+also we have
+V (φ) = V (φ) 1+e4R0(φ φmin) (3.7)
+eff −
+If φ = 0, we get V (φ) = 2V cosh(2R(cid:2)φ). Substitutin(cid:3)g Eqs.(??,3.6) into Eq.(3.1)
+min eff 0 0
+then into Eq.(3.2), the scalaron mass can then be expressed as
+m = 2 2V R e R0φmin. (3.8)
+φ 0 0 −
+p
+It is shown that scalar fields can explain the abundance of dark matter. The scalaron
+mass change according to the trace of the energy-momentum tensor [33]. In the large
+curvature limit [34] we have R φ = 1, one finds
+0 min
+R R = 1/φ = M 2ρ, (3.9)
+−→ 0 min p−
+where ρ is the matter matter-energy. We can then express the scalaron mass m as a
+φ
+function of the matter-energy density
+2√2V
+0
+m = ρ. (3.10)
+φ eM2
+p
+The scalaron field φ becomes dynamical in the low energy density environment on the
+cosmological scale. Since the mass m depends on the matter density ρ, thus, the
+φ
+scalaron becomes heavy in the high-density region of matter. This feature is called the
+chameleon mechanism which is one of the screening mechanism in the modified gravity
+[35]. The chameleon mechanisms is defined when the scalaron mass depends on the
+environment surrounding the scalaron field. The scalaron φ is regarded as a dynamical
+dark matter and can be a dark matter candidate. Similar topics had been researched in
+many literatures [35, 36].
+4 Maximally symmetric vacuum solutions
+Recently, there are several papers which study the Particle production induced by vac-
+uumdecay[45]. Followingtheseconcepts, here, wewillinterpret theGauss-Bonnetvacua
+by the production of dark matter particles. When gravity is taken into consideration,
+5
+the vacua are those with maximally symmetric spaces [22]. In the maximally symmetric
+space, the scalar curvature of de Sitter space is given by
+2D
+R = Λ, (4.1)
+D 2
+−
+where Λ is the cosmological constant. In the case of the positive Λ, we have the de Sitter
+solution. In the large limit, we obtain 1/φ = 2D Λ . In 4-dimensional vacuum, the
+min D 2 0
+−
+equation of motion hasa solution that R = Λg , implies that R = 4Λ. The Minkowski
+µν µν
+spacetime as the vacuum of the Λ = 0. The singularity problem [37] corresponds to
+0
+R (the curvature singularity) or φ = 0. From Eq.(3.8), Eq.(3.9) and Eq.(4.1),
+0 → ∞ min
+for e 2R0φmin 1 2R φ and R R one obtain
+− ≈ − 0 min 0 −→
+m
+2φ R2 R+ φ = 0, (4.2)
+min − 2√2V
+0
+which can reduce to
+2
+D D m
+4φ Λ2 Λ+ φ = 0. (4.3)
+min D 2 − D 2 4√2V
+(cid:18) − (cid:19) − 0
+In maximally symmetric vacuum solutions, there are two branches of solutions for the
+effective cosmological constant,
+D 2 4m
+φ
+Λ = − 1 1 φ , (4.4)
+± 8Dφ min ±s − √2V 0 min !
+In the limit where 2m φ √2V , the two branches are given by
+φ min ≪ 0
+D 2 m φ
+Λ = − 1 φ min , (4.5)
++
+4Dφ − √2V
+min (cid:18) 0 (cid:19)
+D 2 m
+φ
+Λ = − . (4.6)
+− 4D √2V
+0
+Using Eq. (3.10) and 1/φ = 2D Λ , the above equations can be further rewritten as
+min D 2 0
+−
+Λ 2φ ρ φ ρ
+Λ = 0 1 min ; Λ = Λ min . (4.7)
++ 2 − eM2 − 0 eM2
+(cid:18) p (cid:19) p
+We notice that Λ = Λ0 Λ . In particular, the large curvature limit 1/4 = Λ φ , we
++ 2 − − 0 min
+have
+Λ ρ 1 ρ
+0
+= Λ +Λ ; Λ = ; Λ = = , (4.8)
+2 + − − 4eM2 0 4φ 4M2
+p min p
+or equivalently
+(e 2) Λ ρ
+0
+Λ = − Λ ; Λ = ; Λ = (4.9)
++ 2e 0 − e 0 4M2
+p
+Let us now comment on the two solutions above. The cosmological constant Λ is
++
+equivalent to that found by [26] which is proportional to the mass of the scalar field
+6
+(chameleonic dark matter [33]). If ρ decreases over time, the value of Λ increases to
++
+reach Λ . On the other hand, the second branch Λ depends on the matter density. We
+0
+−
+notice that Λ > 0 and Λ > 0, instead of studying the false vacuum forming inside
++
+−
+the true vacuum in the bubble geometry [39]. The two roots (Λ ,Λ ) can represent
++
+−
+two faces of the same true vacuum. In a vacuum (without matter), the chameleon
+mechanism will be zero, which corresponds to dark energy. The chameleon mechanism
+appears when there is the matter Eq.(3.10), the vacua are those with Λ . The vacuum
+−
+Λ will be spontaneously produced with ordinary matter fields. The Gauss-Bonnet
+−
+vacuum becomes a chameleon if there is matter, which solves the problem of the Gauss-
+Bonnet vacuum suffering from perturbative ghost instability [19]. This justifies that the
+matter has an impact on the vacuum, is that the two vacua are separated by a domain
+wall, composed of ordinary matter in the thin wall approximation [39]. In particular,
+the large curvature limit 1/φ = R = 4Λ Eq.(4.9), must satisfy Λ = ρ/4M2 and
+min 0 0 0 p
+Λ = ρ/4eM2, we can show that Λ + Λ = Λ , which corresponds to Λ /Λ
+− p + − 0 − 0 ≈
+0,368 36,8% and Λ /Λ 0,132 13,2%. The percentage Λ /Λ 36,8% is
++ 0 0
+≡ ≈ ≡ − ≡
+close to the density of matter and dark matter in the universe [43]. It is interesting to
+note that 50% = (36,8%+13,2%) of space-time gets a mass in a region occupied by
+(Λ ,Λ ). In this case, we introduce the parameter X which explains the lack of 50% of
++
+−
+Λ : Λ = Λ +Λ +X, i.e. X/Λ = 0,5 50%. So, we can associate the parameter X
+0 0 + 0
+− ≡
+to dark energy.
+Energy content parameter pourcentage
+Matter+Dark matter Λ Λ /Λ 36,8%
+0
+− − ≡
+Dark energy Λ +X (Λ +X)/Λ = 63,2%
++ + 0
+Universe Λ 100%
+0
+Table 1: Numerical estimate of the percentages of ordinary matter, dark matter and
+dark energy in the universe [43].
+We notice that the dark energy is described by the parameter Λ and an unknown
++
+parameter X table (2).
+7
+5 Functional coupling and Barrow entropy
+In this section, we explain in detail how to construct the equation of motion of the
+Einstein-Gauss-Bonnet gravity. We begin by reviewing the the 4D EsGB action
+M2 1
+= p d4x√ g R+f (φ) gµν∂ φ∂ φ V (φ) + ,
+µ ν m
+S 2 − G − 2 − S
+Z (cid:18) (cid:19)
+where M = 1/(8πG ) = 1.221 1019GeV is the reduced Planck mass, R is the Ricci
+p N
+×
+scalar, S is the matter action and f (φ) is a functional coupling of the scalar field φ. In
+m
+the above equation (µ,ν) = (0,1,2,3). We define the GB term as
+R2 4R Rµν +R Rµνρσ. (5.1)
+µν µνρσ
+G ≡ −
+The Kretschmann scalar is R Rµνρσ. The variation with respect to the field φ gives
+µνρσ
+us the equation of motion for the scalar field
+(cid:3)φ = ∂ V (φ), (5.2)
+φ eff
+where (cid:3) µ and the effective potential is
+µ
+≡ ∇ ∇
+V (φ) = V (φ) f (φ) . (5.3)
+eff
+− G
+Varying the action (??) over the metric g , we obtain the following equations of motion:
+µν
+1 1
+Gµν + µν +f (φ) µν + µν gµνV (φ) = κ2Tµν,
+K H 2 Tφ − eff 2
+(cid:2) (cid:3)
+where the Einstein tensor is Gµν = Rµν 1gµνR, the matter stress tensor is Tµν =
+− 2
+2 δ m. On the other hand the µν and µν are given by
+S
+−√ gδgµν K H
+−
+1
+µν = 4[Gµν(cid:3) + R µ ν +(gµνRρσ Rµρνσ) ,
+ρ σ
+K 2 ∇ ∇ − ∇ ∇
+Rνρ µ +Rµρ ν]f (φ) (5.4)
+ρ ρ
+− ∇ ∇ ∇ ∇
+µν = 2RµρστRν RRµν
+H ρστ −
+1
++ Rµ Rνρ RµρστRν . (5.5)
+2 ρ − ρστ
+The tensor µν represents an operator which acts on f (φ). The energy-momentum
+K
+tensor for the scalar field is
+1
+µν = µφ νφ gµν φ ρφ. (5.6)
+Tφ ∇ ∇ − 2 ∇ρ ∇
+The stress tensor for anisotropic compact object is given as
+Tµν = (ρ+P )uµuν +P gµν +(P P )χµχν, (5.7)
+t t t
+−
+8
+with energy density ρ = ρ(r) c2ρ(r), transverse pressure P (r) and radial pressure
+CO ≡ t
+P(r) of the homogeneously distributed matter in the compact object (CO), where uµ is
+the four-velocity of the fluid and χµ is the unit space-like vector in the radial direction.
+In limit α 0, one can see that this is equivalent to the original form given by
+−→
+the Bekenstein-Hawking entropy. One can check that for D = 2, the topological term
+characterized by a vanishes Lovelock coupling α. The Barrow entropy [59] is a new black
+hole entropy which is given by
+1+δ/2
+A
+S = π , (5.8)
+A
+(cid:18) 0(cid:19)
+where 0 δ 1, A is the black hole horizon area and A is the Planck area [56]. When
+0
+≤ ≤
+δ = 0, the area law is restored, i.e. S = A (where A = 4G) while δ = 1 represents the
+4G 0
+most intricate and fractal structure of the horizon.
+The form the functional f (φ) can take f (φ) = e γφ [60], where γ is a constant, which
+−
+corresponds to EGB gravity coupled with dilaton that arises as a low-energy limit of
+the string theory [61]. Using the same principle as this entropy, we assume that for the
+compact object (or black hole) exterior, there is a presence of scalar fields φ, while inside
+the compact object is replaced by the Gauss-Bonnet (GB) coupling α as
+coupling constant=f (φ), CO exterior (D = 4)
+. (5.9)
+coupling constant= α , CO interior (D 4)
+D 4 →
+−
+The GB coupling α is measured in km2. In the CO exterior interior, we have rescaled
+the coupling constant α α/(D 4). The negative (positive) α leads to a decrease
+→ −
+(increase) of the CO radius and the maximum mass [63]. If α < 0 the solution is still
+the anti-de Sitter (AdS) space, if α > 0 the solution is the de Sitter (dS) space [62].
+We investigate in detail the impact of the Gauss-Bonnet coupling on the properties of
+an anisotropic compact object, such as mass, radius and the factor of compactness.
+Considering the limit D 4, and it has an effect on gravitational dynamics in 4D.
+→
+Additionally, at the CO boundary (r = R), the GB coupling must be continuous, i.e.
+f (φ) α . On the other hand, the function f (φ) describes the star’s exterior region.
+≡ D 4
+−
+To study the equations of motion inside and outside CO, we differentiate between two
+cases:
+In CO interior (D 4) we have:
+→
+1 κ2
+Gµν +α µν + gµν = Tµν. (5.10)
+H 2 G 2
+(cid:18) (cid:19)
+In CO exterior (D = 4) we have:
+1 1
+Gµν + µν +f (φ) µν gµν φ λφ+4V (φ) = κ2Tµν, (5.11)
+λ eff
+K H − 2f (φ) ∇ ∇ 2
+(cid:20) (cid:21)
+(cid:0) (cid:1)
+9
+with g µν = φ λφ. In CO interior (D 4) we have: The GB invariant can be
+µν Tφ −∇λ ∇ →
+greatly simplified to the matter density [64] and using Eq.(5.3) we obtain
+ρ = 4 4 1 φ λφ+V (φ) , CO exterior (D = 4)
+f(φ) G − f(φ) 4∇λ ∇ . (5.12)
+ρ = , CO interior (D 4)
+CO G (cid:0) (cid:1) →
+In this case, the term ρ represents the density of matter in compact objects, and
+CO
+ρ is the density of dark matter surrounding these objects. Note that the relation
+f(φ)
+between ρ and ρ highlight the chameleon dark matter [65, 66]. Formally, at the
+f(φ) CO
+points where the dark matter density ρ equal to ρ . For V (φ) 1 φ λφ,
+DM f(φ) ≈ −4∇λ ∇
+we obtain ρ 4ρ , which is in good agreement with the observation data of the
+DM ≈ CO
+percentages of dark matter and the matter in the Universe [69, 57]: ρ 80% and
+DM ≡
+ρ (ρ ) 20%.
+matter CO ≡
+Next, we assume that φ = φ(t). In cosmological and quintessence behavior [67, 68], the
+energy density ρ and pressure P of the scalar field are given by
+φ φ
+1
+˙2
+ρ = φ +V (φ), (5.13)
+φ 2
+1
+˙2
+P = φ V (φ).
+φ
+2 −
+The quintessence models describe dark energy with a scalar field φ. In this case, ρ
+φ
+and P are respectively, the density and the pressure of the dark energy (DE). The
+φ
+Planck Collaboration [69] provides constraints on the equation of state ω = P /ρ
+φ φ φ ≈
+1.028 0.032. Starting from Eqs. (5.13), we obtain
+− ±
+1
+ρ = 4ρ + P 3ρ . (5.14)
+DM CO f (φ) φ − φ
+(cid:0) (cid:1)
+For small f (φ), the DM chameleon effect vanishes and the DM density depends only on
+P 3ρ /f (φ).
+φ − φ
+The scalar field always sits at the minimum of its effective potential. We assume that a
+(cid:0) (cid:1)
+massive scalar field begins oscillating about a minimum. The mass of small fluctuations
+around φ gives a new scalar field mass as effective mass by m2 = ∂2 V (φ) .
+min eff ∂φ2 eff
+φ=φmin
+From Eqs. (5.3,5.13,5.14) we obtain (cid:12)
+(cid:12)
+(cid:12)
+1 ∂2 ρ
+m2 = ρ P + CO 3ρ P . (5.15)
+eff 2∂φ2 φ − φ ρ 4ρ φ − φ
+(cid:18) DM − CO (cid:19)φ=φmin
+(cid:0) (cid:1)
+From Eq. (5.14), the functional coupling is given by
+P 3ρ
+f (φ) = φ − φ . (5.16)
+ρ 4ρ
+DM − CO
+In the void (ρ = 0,ω 1), we have f (φ) = 4ρ /ρ . In the CO surface, we
+CO φ ∼ − − φ DM
+assume that ρ 0 and P 0, so we get f (φ) 3ρ /4ρ . Since ρ represents
+DM ≈ φ ≈ surface ≈ φ CO φ
+10
+the density of DE according to quintessence, the effect of DE is weak on the CO surface,
+which shows that f (φ) ρ 0. Inside CO, we have (P = ρ = 0), i.e.
+surface ∝ φ → φ φ
+f (φ) = 0, which exactly corresponds with the assumption Eq. (5.9). For this reason,
+(cid:0) (cid:1)
+we exclude f (φ) inside matter, and we replace it with the GB coupling α (see the next
+section).
+6 EGB primordial black holes
+We start by the action of Einstein-Gauss-Bonnet (EGB) gravity [48] in 4-dimensions as
+M2
+= dDx√ g p R 2Λ+f (φ) R2 4R Rµν +R Rµνρσ , (6.1)
+µν µνρσ
+I − 2 − −
+Z (cid:18) (cid:19)
+(cid:0) (cid:1)
+where S is the matter action, M2 =
+c4
+2 1018[GeV], R is the Ricci scalar. We
+m p 8πG ≈ ×
+define the Gauss-Bonnet invariant as = = R2 4R Rµν+R Rµνρσ, where α =
+2 µν µνρσ 2
+G L −
+α/(D 4) is the Gauss-Bonnet coupling have dimensions of [length]2, that represent
+−
+ultraviolet (UV) corrections to Einstein theory. To solving the field equation we obtain
+the black hole solution ds2 = f(r)dt2+ 1 dr2+r2 dθ2 +sin2θdφ2 . Taking the limit
+− f(r)
+D 4, we obtain the exact solution in closed form
+(cid:0) (cid:1)
+−→
+r2 2M 1
+f(r) 1+ 1 1+4α . (6.2)
+≈ 2α −s r3 ± l2
+!
+(cid:18) (cid:19)
+This last solution could be obtained directly from the derivation done in [49]. In the
+limit r with vanishing black hole charge, we asymptotically obtain the GR
+−→ ∞
+Schwarzschild solution. In the limit α 0, we can recover the Reissner-Nordstr¨om-
+−→
+AdS solution. If α < 0 the solution is still an AdS space, if α > 0 the solution is
+a de Sitter (dS) space, [50]. The solutions show that the event horizon is located at
+R = M √M2 α, where R = R and R are the event horizon and the Cauchy
+H +
+± ± − −
+horizon radius of the EGB black hole [47]. We can express the ADM mass M of the
+black hole in terms of R by solving f(r) = 0 for r = R resulting in
+H H
+l 2R4 +R2 +α
+M = − H H . (6.3)
+2R
+H
+The Hawking temperature of the EBG black hole can be calculated as
+3l 2R4 +R2 α
+T = − H H − . (6.4)
+8παR +4πR3
+H H
+4πR3
+The thermodynamic volume V = H is the conjugate variable to the pressure. The
+3
+parameters V and A are the conjugate quantities of the pressure P and GB coupling
+11
+parameter α. The event horizon in spacetime can be located by solving the metric
+equation: f(r) = 0, and from Eq .(6.2) we obtain
+3 3α
+ρ +P = + , (6.5)
+BH 8πR2 8πR4
+H H
+where M = ρ V, V = 4πr3/3 and P = 3/8πl2. For the limit α 0, we can recover
+BH −→
+the density ρ = 3/16πR2 of the holographic dark energy (DE) [70]. In the spatially flat
+Λ H
+homogeneous and isotropic universe in the FLRW, the (modified) Friedmann equations
+can be obtained [48] H2 +αH4 = 8πGρ+ Λ and (H2 +αH4)H˙ = 4πG(ρ+P). This
+3 3 −
+equation looks like the Eq .(6.5), i.e. can describe the dynamics in space-time associated
+to a black hole. For Gauss–Bonnet branch, we introduce the topological density as
+α
+ρ = ρ(2) = . (6.6)
+α α 16πR4
+H
+From Eq. (6.5) we obtain the Van der Waals equation:
+4παR R
+H H
+(P +ρ ) V = . (6.7)
+BH − 3 2
+(cid:18) (cid:19)
+In the limit α 0 and P ρ, we can recover the ideal gas law. The critical point
+−→ ≫
+occurs when P(V). We note that the Gauss-Bonnet coupling α represente measure of
+the average attraction between particles. Before proceeding further, we note that the
+mass M can be interpreted as a chemical enthalpy [51], which is the total energy of the
+black hole [52] including both the energy PV and the internal energy E and required to
+displace the vacuum energy of its environment. The Hubble horizon mass is connected
+with the Smarr formula as
+R α
+H
+M +PV = + , (6.8)
+H
+2 2R
+H
+4πR3
+where M = Hρ is the Hubble horizon mass. We have also
+H 3
+α
+R 2M . (6.9)
+H
+≈ − 2M
+We can recover the Schwarzschild radius for α 0. This expression gives an interpreta-
+≈
+tion of the difference between Schwarzschild and EGB black holes. From Eqs. (6.8,6.9),
+we obtain the the Smarr formula:
+α 1
+M = M +PV + 1 . (6.10)
+H 4M − 1 α
+(cid:18) − 4M2(cid:19)
+In the limit α 0, we can recover the standard Smarr formula. Let us mention that
+−→
+for the AdS-Schwarzschild limit and using M M , we get PV = α/4M T.
+H
+≈ ∝ − ∝
+This expression gives an interpretation to the term that depends on α, as a solution of
+12
+AdS-GB gravity in the presence of a perfect fluid [53]. This is not valid for the dS-GB
+black holes.
+α 1
+PV = (M M ) 1 . (6.11)
+− H − 4M − 1 α
+(cid:18) − 4M2(cid:19)
+For Gauss-Bonnet branch we obtain 1 4M2 1 α = 1. One of two solutions
+− α − 4M2
+to this equation is the Golden ratio ((cid:16)α > 0) i(cid:17)n(cid:0)de Sitter(cid:1)(dS) space: 4Mα
+2
+= 1+ 2√5 or
+4M2 = 1+√5. If α < 0 the solution is still an AdS space: α = 1 √5 or 4M2 = 1 √5. We
+α 2 4M2 − 2 α − 2
+obtain the spectrum of mass in the Gauss-Bonnet branch is
+√γα
+M = , (6.12)
+α
+2
+withγ = 2 , 1 √5, 2 , 1+√5 . Itcanbewrittenasγ 1.618, 0.618,0.618,1.618 .
+−
+1 √5 2 1+√5 2 ≈ {− − }
+−
+This showns that the Gauss-Bonneot coupling represents a topological black hole mass.
+α γ M
+α
+0.5 1.618 0.449
+− −
+0.5 0.618 0.277
+− −
+0.5 0.618 0.277
+0.5 1.618 0.449
+Table 2: Numerical estimate of the values of the PBH mass, according to the frequency
+f and the interval of N between 10 47 and 60. Such as f = 2.561 1033N.
+− × M
+Taking the derivative with respect to time t in both sides of Eq. (6.9), thus the mass
+loss rate of a black hole is obtained as
+dM R˙ α
+H
+1 , (6.13)
+dt ≈ 2 − 2M2
+(cid:16) (cid:17)
+with R˙ = dRH. Using the 4D Stefan-Boltzmann law [54, 58] dM = π2AT4/60, with T
+H dt dt −
+and A are temperature and area of black hole, respectively. Evidently, we have α/M2
+∝
+T4. For the Gauss-Bonnet branch and from Eq. (6.12), we have dM R˙ H (1 2γ).
+dt ≈ 2 −
+Taking the Friedmann equation HR = 1 [70] and from Eq .(6.9) we have
+H
+1/2
+1 1 1
+M (t) = +4α . (6.14)
+± 4H(t) ± 4 H(t)
+(cid:18) (cid:19)
+Focusing on M (t), one can find the condition 1 1 1 4α. For α = 0.5 we plot M
+− H H − ≥ θ2 ±
+vsH Fig. (1, left). UsingH = q/tintheradiation-dominatedera(q = 1/2)forα = 0.5,
+(cid:0) (cid:1)
+−
+we plot M vs t Fig. (1, right). In Fig. (1, right), the domain in red, represents the
+±
+interval where the evolution of the mass with respect to time begins to increase. While,
+13
+Figure 1: Left, curves of M vs H from Eq. (6.14)with α = 0.5. Right, M vs t (dashed
++
+±
+line) and M vs t (solid line) for the values q = 1/2 and α = 0.5 .
+− −
+before this interval, the mass decreases over time which is due to Hawking evaporation.
+Accordingtothisfigure, twotypesofPBHshaveoppositepropertiessuchastheevolution
+of their masses over time.
+7 Conclusion
+The coupling between the scalar fieldφ andthe4DEinstein-Gauss-Bonnet gravity action
+isstudied. Wehavestudiedthemodeldescribingthecompactstarsin4DEinstein-Gauss-
+Bonnet gravity surrounded by scalar dark matter. We have made a comparison between
+the star interior and the exterior region. In this case, the Gauss-Bonnet coupling de-
+scribes the interior structure of theblack hole, while thecoupling functionf (φ) describes
+the black hole exterior region. We have shown that f (φ) = 0 inside the black hole. By
+solving the equations of motion based on the chameleon mechanism. We refer to φ as
+a chameleon field, since its physical properties, such as its mass, depend sensitively on
+the environment. It can be used to demonstrate the relation between the cosmological
+constant and the matter density. The Gauss-Bonnet vacuum have a chameleon struc-
+ture, and the mass m appears with a small fluctuations. Moreover, we have studied
+φ
+the vacua in maximally symmetric solutions, and we obtain two branches of solutions,
+i.e. there are two such vacua. The first solution corresponds to the dark energy and the
+second represents the chameleonic vacua or dark matter. We have found strong mix-
+ing between the two vacua, which is presented by the chameleon mechanism. We also
+discussed the equation of state parameter in the model of the scalar field φ minimally
+coupled to EGB gravity, also in the maximally symmetric space. The percentages of the
+14
+effective cosmological constants are in good agreement with those of dark matter and
+dark energy in the Universe.
+We have considered 4D Einstein-Gauss-Bonnet gravity. We establish the relationship
+between a topological mass spectrum and the golden ratio. We have obtained the mass
+loss rate, which gives by taking the Friedmann equation of type HR = 1 [70], the evo-
+H
+lution of the mass over time, and the evaporation Hawking time. For such a choice and
+fixed values of Lovelock coupling, we have plotted the mass of PBH versus the Hubble
+parameter and time.
+References
+[1] Del Popolo, Antonino, and Morgan Le Delliou. ”Small scale problems of the ΛCDM
+model: a short review.” Galaxies 5.1 (2017): 17.
+[2] D. Glavan, & C. Lin, Einstein-Gauss-Bonnet Gravity in Four-Dimensional Space-
+time, Phys. Rev. Lett. 124(8) (2020) , 081301.
+[3] Easson, D. A., Manton, T., & Svesko, A. (2020). D 4 Einstein-Gauss-Bonnet
+−→
+gravity and beyond. Journal of Cosmology and Astroparticle Physics, 2020(10),
+026.
+[4] D. Lovelock, The four-dimensionality of space and the Einstein tensor, J. Math.
+Phys. 13(6) (1972), 874-876.
+[5] Bonifacio, J., Hinterbichler, K., &Johnson, L.A.(2020),Amplitudes and4DGauss-
+Bonnet Theory, Phys. Rev. D, 102(2), 024029.
+[6] Gu¨rses, M., S¸i¸sman, T. C¸., & Tekin, B. (2020). Comment on “Einstein-Gauss-
+Bonnet Gravity inFour-DimensionalSpacetime”, Phys. Rev. Lett., 125(14), 149001.
+[7] Wang, D., & Mota, D. (2021). 4D Gauss–Bonnet gravity: Cosmological constraints,
+H0 tension and large scale structure, Phys. Dark Universe, 100813.
+[8] Wu, C. H., Hu, Y. P., & Xu, H. (2021). Hawking evaporation of Einstein–Gauss–
+Bonnet AdS black holes in D 4 dimensions, Eur. Phys. J. C, 81(4), 1-9.
+≥
+[9] Horndeski, G. W. (1974). Second-order scalar-tensor field equations in a four-
+dimensional space. Int. J. Theor. Phys., 10(6), 363-384.
+[10] Guo, M., & Li, P. C. (2020), Innermost stable circular orbit and shadow of the 4 D
+Einstein–Gauss–Bonnet black hole, Eur. Phys. J. C, 80(6), 1-8.
+15
+[11] Konoplya, R. A., & Zinhailo, A. F., 2020, Eur. Phys. J. C,. 80(11), 1-13.
+[12] Banerjee, A., Tangphati, T., & Channuie, P., 2021, Astrophys. J., 909(1), 14.
+[13] Hansraj, S., Banerjee, A., Moodly, L., & Jasim, M. K., 2020, Class. Quantum
+Gravity, 38(3), 035002.
+[14] Banerjee, A., Tangphati, T., Samart, D., & Channuie, P., 2021, Astrophys. J.,
+906(2), 114.
+[15] Banerjee, A., & Singh, K. N., 2021, Phys. Dark Universe, 31, 100792.
+[16] Tangphati, T., Pradhan, A., Errehymy, A., & Banerjee, A., 2021, Phys. Lett. B,
+136423.
+[17] East, W. E., & Ripley, J. L. (2021). Evolution of Einstein-scalar-Gauss-Bonnet
+gravity using a modified harmonic formulation. Physical Review D, 103(4), 044040.
+[18] Horndeski, G. W. (1974). Second-order scalar-tensor field equations in a four-
+dimensional space. International Journal of Theoretical Physics, 10(6), 363-384.
+[19] Charmousis, C., & Padilla, A. (2008). The instability of vacua in Gauss-Bonnet
+gravity. Journal of High Energy Physics, 2008(12), 038.
+[20] Ma, L., & Lu¨, H. (2020). Vacua and exact solutions in lower-D limits of EGB. The
+European Physical Journal C, 80(12), 1-10.
+[21] Panah, B. E., Jafarzade, K., & Hendi, S. H. (2020). Charged 4D Einstein-Gauss-
+Bonnet-AdS black holes: shadow, energy emission, deflection angle and heat engine.
+Nuclear Physics B, 961, 115269.
+[22] Markkanen, T., Nurmi, S., Rajantie, A., & Stopyra, S. (2018). The 1-loop effective
+potential for the Standard Model in curved spacetime. Journal of High Energy
+Physics, 2018(6), 1-40.
+[23] Linde, A. D. (1983). Decay of the false vacuum at finite temperature. Nuclear
+Physics B, 216(2), 421-445.
+[24] Coleman, S., & Luccia, F. D. (1980). Gravitational effects on and of vacuum decay.
+In EUCLIDEAN QUANTUM GRAVITY (pp. 295-305).
+[25] Nojiri, S. I., Odintsov, S. D., & Sasaki, M. (2005). Gauss-Bonnet dark energy.
+Physical Review D, 71(12), 123509.
+16
+[26] Glavan, D., & Lin, C. (2020). Einstein-Gauss-Bonnet Gravity in Four-Dimensional
+Spacetime. Physical Review Letters, 124(8), 081301.
+[27] Bousder, M., Salmani, E., El Fatimy, A., & Ez-Zahraouy, H. (2023). Holographic
+dark energy satisfying the energy conditions in Lovelock gravity. Annals of Physics,
+169282.
+[28] Cata`, O., Ibarra, A., & Ingenhu¨tt, S. (2016). Dark matter decays from nonminimal
+coupling to gravity. Physical review letters, 117(2), 021302.
+[29] Aoki, K., Gorji, M. A., & Mukohyama, S. (2020). A consistent theory of D 4
+−→
+Einstein-Gauss-Bonnet gravity. Physics Letters B, 135843.
+[30] Caldwell, R. R., Kamionkowski, M., & Weinberg, N. N. (2003). Phantom energy:
+dark energy with w<- 1 causes a cosmic doomsday. Physical Review Letters, 91(7),
+071301.
+[31] Pi, Shi, et al. ”Scalaron from R2-gravity as a heavy field.” Journal of Cosmology
+and Astroparticle Physics 2018.05 (2018): 042.
+[32] Khoury, Justin, and Amanda Weltman. ”Chameleon cosmology.” Physical Review
+D 69.4 (2004): 044026.
+[33] Katsuragawa, Taishi, and Shinya Matsuzaki. ”Cosmic history of chameleonic dark
+matter in F (R) gravity.” Physical Review D 97.6 (2018): 064037.
+[34] Gannouji, Radouane, M. Sami, and I. Thongkool. ”Generic f (R) theories and clas-
+sicality of their scalarons.” Physics Letters B 716.2 (2012): 255-259.
+[35] Katsuragawa, T., & Matsuzaki, S. (2018). Cosmic history of chameleonic dark mat-
+ter in F (R) gravity. Physical Review D, 97(6), 064037.
+[36] Choudhury, S., Sen, M., & Sadhukhan, S. (2016). Can dark matter be an artifact
+of extended theories of gravity?. The European Physical Journal C, 76(9), 1-24.
+[37] Frolov, A.V.(2008).Singularityproblemwithf(R)modelsfordarkenergy. Physical
+review letters, 101(6), 061103.
+[38] Crisostomo, J., Troncoso, R., & Zanelli, J. (2000). Black hole scan. Physical Review
+D, 62(8), 084013.
+[39] Shu, F. W. (2020). Vacua in novel 4D Einstein-Gauss-Bonnet gravity: Pathology
+and instability?. Physics Letters B, 811, 135907.
+17
+[40] Ema, Y., Jinno, R., & Nakayama, K. (2020). High-frequency graviton from inflaton
+oscillation. Journal of Cosmology and Astroparticle Physics, 2020(09), 015.
+[41] Elder, B., Khoury, J., Haslinger, P., Jaffe, M., Mu¨ller, H., & Hamilton, P. (2016).
+Chameleon dark energy and atom interferometry. Physical Review D, 94(4), 044051.
+[42] Brax, P., van de Bruck, C., Davis, A. C., Khoury, J., & Weltman, A. (2004).
+Detecting dark energy in orbit: The cosmological chameleon. Physical Review D,
+70(12), 123518.
+[43] Aghanim, N., Akrami, Y., Ashdown, M., Aumont, J., Baccigalupi, C., Ballardini,
+M., ... & Roudier, G. (2020). Planck 2018 results-VI. Cosmological parameters.
+Astronomy & Astrophysics, 641, A6.
+[44] Garc´ıa-Aspeitia, M. A., & Hern´andez-Almada, A. (2021). Einstein–Gauss–Bonnet
+gravity: Is it compatible with modern cosmology?. Physics of the Dark Universe,
+100799.
+[45] Hashiba, S., Yamada, Y., & Yokoyama, J. I. (2021). Particle production induced by
+vacuum decay in real time dynamics. Physical Review D, 103(4), 045006.
+[46] Krishnan, C., Mohayaee, R., Colg´ain, E. O´., Sheikh-Jabbari, M. M., & Yin, L.
+(2021). Does Hubble tension signal a breakdown in FLRW cosmology?. Classical
+and Quantum Gravity, 38(18), 184001.
+[47] P. G. Fernandes, Charged black holes in AdS spaces in 4D Einstein Gauss-Bonnet
+gravity, Phys. Lett. B, 135468 (2020).
+[48] Fernandes, P. G., Carrilho, P., Clifton, T., & Mulryne, D. J. (2022). The 4D
+Einstein-Gauss-Bonnet theory of gravity: a review. Class. Quant. Grav.
+[49] M. Cvetiˇc, S. I. Nojiri and S. D. Odintsov, Black hole thermodynamics and negative
+entropy in de Sitter and anti-de Sitter Einstein–Gauss–Bonnet gravity, Nucl. Phys.
+B, 628(1-2), 295-330, (2002).
+[50] P. G. Fernandes, Charged black holes in AdS spaces in 4D Einstein Gauss-Bonnet
+gravity, Phys. Lett. B, 135468 (2020).
+[51] D.Kastor, S. Ray andJ. Traschen, Enthalpy andtheMechanics of AdSBlack Holes,
+Class. Quant. Grav., 26 195011, (2009).
+[52] D. Kubiznˇ´ak, R. B. Mann and M. Teo, Black hole chemistry: thermodynamics with
+Lambda, Class. Quant. Grav., 34(6), 063001 (2017).
+18
+[53] N. Farhangkhah, New black hole solutions of Gauss-Bonnet gravity in the presence
+of a perfect fluid, Iran. J. Phys. Res., 17(5), 729-735 (2019).
+[54] C. H. Wu, Y. P. Hu and H. Xu. Hawking evaporation of Einstein–Gauss–Bonnet
+AdS black holes in D 4 dimensions, Eur. Phys. J. C, 81(4), 1-9 (2021).
+≥
+[55] Bousder, M. (2022). A new constant behind the rotational velocity of galaxies.
+Journal of Cosmology and Astroparticle Physics, 2022(01), 015.
+[56] Bousder, M. (2021). Quantum f (R) gravity and AdS/CFT. arXiv preprint
+arXiv:2104.14434.
+[57] Bousder, M., Sakhi, Z., & Bennai, M. (2020). A new unified model of dark matter
+anddarkenergyin5-dimensionalf(R,φ)gravity.InternationalJournalofGeometric
+Methods in Modern Physics, 17(13), 2050183.
+[58] S. B. Giddings, Phys. Lett. B, 754, 39-42 (2016).
+[59] Barrow, J. D. (2020). The area of a rough black hole. Phys. Lett. B, 808, 135643.
+[60] Antoniou, G., Bakopoulos, A., & Kanti, P., 2018, Phys. Rev. D, 97(8), 084037.
+[61] Maeda, K. I., Ohta, N., & Sasagawa, Y. 2009, Phys. Rev. D, 80(10), 104032.
+[62] Fernandes, P. G. (2020), Phys. Lett. B, 135468.
+[63] Doneva, D. D., & Yazadjiev, S. S., 2021, J. Cosmol. Astropart. Phys., 2021(05),
+024.
+[64] Bean, R., Flanagan, E. E., & Trodden, M. 2008, Phys. Rev. D, 78(2), 023009.
+[65] Khoury, J., & Weltman, A., 2004, Phys. Rev. D, 69(4), 044026.
+[66] Folomeev, V., Aringazin, A., & Dzhunushaliev, V., 2013, Phys. Rev. D, 88(6),
+063005.
+[67] Matos, T., & Urena-Lopez, L. A., 2000, Class. Quantum Gravity, 17(13), L75.
+[68] 4Arbey, A., & Coupechoux, J. F., 2021, J. Cosmol. Astropart. Phys., 2021(01), 033.
+[69] Aghanim, N., Akrami, Y., Ashdown, M., Aumont, J., Baccigalupi, C., Ballardini,
+M., ... & Roudier, G., 2020, Astron. Astrophys., 641, A6.
+[70] M. Li, A model of holographic dark energy. Phys. Lett. B, 603(1-2), 1-5 (2004).
+19
