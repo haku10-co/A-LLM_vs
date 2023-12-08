@@ -68,45 +68,149 @@
 - 3つのファイル形式(docx, pdf, txt)でデータセットを準備
 - AddaptiveLLMとChatGPTにそれぞれデータを入力
 - 読み取り精度を評価(評価基準と質問: [md](./resDoc/評価基準.md))
-## 出力結果
-1. Wikipediaデータセット
+## 出力結果(max 10)
+1. 2023年の気象 : 
+    - GPT :
+        - pdf : 10
+        - txt : 10
+    - A-llm :
+        - pdf :3.5
+        - txt :3.5
+        - docx :3.5
+2. 2023年国連気候変動会議 : 
+    - GPT :
+        - pdf :8
+        - txt :7
+    - A-llm :
+        - pdf :6
+        - txt :5
+        - docx :6
+2.  事業活動産業別売上高 :
+    1. (大きい) : 
+        - GPT :
+            - pdf : 0
+        - A-llm :
+            - pdf : 2.5
+        - claude2 (参考) : 
+            - pdf : 7.5
+    2. (小さい) : 
+        - GPT :
+            - pdf :10
+        - A-llm :
+            - pdf :10
+3.  居住世帯有無別住宅数 : 
+    - GPT :
+        - pdf :
+    - A-llm :
+        - pdf :
+3. BBC州世論調査結果 : 
+    - GPT :
+        - pdf :
+        - txt :
+    - A-llm :
+        - pdf :
+        - txt :
+        - docx :
 
-    - 2023年日本の気象  
-    - 2023年国連気候変動会議
+4. CNN気候変動サミット発言 : 
+    - GPT :
+        - pdf :
+        - txt :
+    - A-llm :
+        - pdf :
+        - txt :
+        - docx :  
 
-2. 政府統計データ
+5. NHK自衛隊空港利用 : 
+    - GPT :
+        - pdf :
+        - txt :
+    - A-llm :
+        - pdf :
+        - txt :
+        - docx :
 
-    - 事業活動産業別売上高
-    - 居住世帯有無別住宅数  
+6. TechCrunchレイオフと自動運転 : 
+    - GPT :
+        - pdf :
+        - txt :
+    - A-llm :
+        - pdf :
+        - txt :
+        - docx :
 
-3. BBC州世論調査結果
+7. はてなブログゲーム趣味収入 : 
+    - GPT :
+        - pdf :
+        - txt :
+    - A-llm :
+        - pdf :
+        - txt :
+        - docx :  
 
-4. CNN気候変動サミット発言  
+8. Reddit角川出版議論 : 
+    - GPT :
+        - pdf :
+        - txt :
+    - A-llm :
+        - pdf :
+        - txt :
+        - docx :
 
-5. NHK自衛隊空港利用
+9. Quoraモテる男性特徴 : 
+    - GPT :
+        - pdf :
+        - txt :
+    - A-llm :
+        - pdf :
+        - txt :
+        - docx :  
 
-6. TechCrunchレイオフと自動運転
+10. 物理論文(Topological densities in Einstein-scalar-Gauss-Bonnet gravity) : 
+    - GPT :
+        - pdf :
+        - txt :
+    - A-llm :
+        - pdf :
+        - txt :
+        - docx :
 
-7. はてなブログゲーム趣味収入  
+11. コンピュータサイエンス論文(With Great Humor Comes Great Developer Engagement) : 
+    - GPT :
+        - pdf :
+        - txt :
+    - A-llm :
+        - pdf :
+        - txt :
+        - docx :
 
-8. Reddit角川出版議論
 
-9. Quoraモテる男性特徴  
+12. 経済論文(The Classical Theory of Supply and Demand) : 
+    - GPT :
+        - pdf :
+        - txt :
+    - A-llm :
+        - pdf :
+        - txt :
+        - docx :
 
-10. 物理論文  
-    - Topological densities in Einstein-scalar-Gauss-Bonnet gravity
+13. 貿易ともだちブログ (親日家のタイ人」は日本人だけが持つ幻想) : 
+    - GPT :
+        - pdf :
+        - txt :
+    - A-llm :
+        - pdf :
+        - txt :
+        - docx :
 
-11. コンピュータサイエンス論文  
-    - With Great Humor Comes Great Developer Engagement
-
-12. 経済論文  
-    - The Classical Theory of Supply and Demand
-
-13. 貿易ともだちブログ  
-    - 「親日家のタイ人」は日本人だけが持つ幻想
-
-14. mandahakkoブログ  
-    - 16時間ファスティングとは 
+14. mandahakkoブログ(16時間ファスティングとは) : 
+    - GPT :
+        - pdf :
+        - txt :
+    - A-llm :
+        - pdf :
+        - txt :
+        - docx :
 
 
 
