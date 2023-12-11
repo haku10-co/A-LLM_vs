@@ -40,9 +40,9 @@
 ):[docx](./tools/DataSet/CNN%20Climate%20summit%20leader%20said%20theres%20no%20science%20behind%20need%20to%20phase%20out%20fossil%20fuels%20alarming%20scientists%20%20%20%20.docx), [pdf](./tools/DataSet/CNN%20Climate%20summit%20leader%20said%20theres%20no%20science%20behind%20need%20to%20phase%20out%20fossil%20fuels%20alarming%20scientists%20%20%20%20.pdf), [txt](./tools/DataSet/CNN%20Climate%20summit%20leader%20said%20theres%20no%20science%20behind%20need%20to%20phase%20out%20fossil%20fuels%20alarming%20scientists%20%20%20%20_full.txt)
 
 - **地域ニュース**:
-  - NHK (なぜ戦闘機が旅客機の隣に？拡大する自衛隊の“民間空港”利用):[docx](./tools/DataSet/121%201155.docx), [pdf](./tools/DataSet/121%201155.pdf), [txt](./tools/DataSet/121%201155.txt)
+  - NHK (なぜ戦闘機が旅客機の隣に？拡大する自衛隊の“民間空港”利用):[docx](./tools/DataSet/121%201155.docx), [pdf](./tools/DataSet/NHK121%201155.pdf), [txt](./tools/DataSet/121%201155.txt)
 - **専門ニュースサイト**: TechCrunch(More layoffs come for micromobility, Cruise cuts loom, and what the Cybertruck signals for Elon,)
-   - English  [docx](./tools/DataSet/More%20layoffs%20come%20for%20micromobility%20Cruise%20cuts%20loom%20and%20what%20the%20Cybertruck%20signals%20for%20Elon.docx), [pdf](../tools/DataSet/More%20layoffs%20come%20for%20micromobility%20Cruise%20cuts%20loom%20and%20what%20the%20Cybertruck%20signals%20for%20Elon.pdf), [txt](./tools/DataSet/More%20layoffs%20come%20for%20micromobility%20Cruise%20cuts%20loom%20and%20what%20the%20Cybertruck%20signals%20for%20Elon.txt)
+   - English  [docx](./tools/DataSet/More%20layoffs%20come%20for%20micromobility%20Cruise%20cuts%20loom%20and%20what%20the%20Cybertruck%20signals%20for%20Elon.docx), [pdf](../tools/DataSet/TecMore%20layoffs%20come%20for%20micromobility%20Cruise%20cuts%20loom%20and%20what%20the%20Cybertruck%20signals%20for%20Elon.pdf), [txt](./tools/DataSet/More%20layoffs%20come%20for%20micromobility%20Cruise%20cuts%20loom%20and%20what%20the%20Cybertruck%20signals%20for%20Elon.txt)
    - 日本語  [docx](./tools/DataSet/More%20layoffs%20come%20for%20micromobility%20Cruise%20cuts%20loom%20and%20what%20the%20Cybertruck%20signals%20for%20Elon%20日本語.docx), [pdf](./tools/DataSet/More%20layoffs%20come%20for%20micromobility%20Cruise%20cuts%20loom%20and%20what%20the%20Cybertruck%20signals%20for%20Elon%20日本語.docx), [txt](./tools/DataSet/More%20layoffs%20come%20for%20micromobility%20Cruise%20cuts%20loom%20and%20what%20the%20Cybertruck%20signals%20for%20Elon%20日本語.docx)
 ### ブログやフォーラム:
 - **個人ブログ**:
@@ -100,9 +100,9 @@
             - pdf :10
 3.  居住世帯有無別住宅数 : 
     - GPT :
-        - pdf :
+        - pdf :8.5
     - A-llm :
-        - pdf :
+        - pdf :10
 3. BBC州世論調査結果 : 
     - GPT :
         - pdf :
@@ -131,14 +131,22 @@
         - docx :
 
 6. TechCrunchレイオフと自動運転 : 
-    - GPT :
-        - pdf :
-        - txt :
-    - A-llm :
-        - pdf :
-        - txt :
-        - docx :
-
+    1. 英語
+        - GPT :
+            - pdf :
+            - txt :
+        - A-llm :
+            - pdf :
+            - txt :
+            - docx :
+    1. 日本語
+        - GPT :
+            - pdf :
+            - txt :
+        - A-llm :
+            - pdf :
+            - txt :
+            - docx :
 7. はてなブログゲーム趣味収入 : 
     - GPT :
         - pdf :
