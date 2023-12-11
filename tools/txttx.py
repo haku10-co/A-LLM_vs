@@ -7,7 +7,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
 # txtファイルのパス
-txt_path = '/Users/kamehaku/Desktop/Add-LLM vs Chat-GPT/tools/DataSet/16.txt'
+txt_path = '/Users/kamehaku/Desktop/Add-LLM vs Chat-GPT/tools/DataSet/TechJa.txt'
 # DataSetフォルダのパス
 dataset_path = '/Users/kamehaku/Desktop/Add-LLM vs Chat-GPT/tools/DataSet/'
 
