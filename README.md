@@ -85,153 +85,170 @@
         - pdf :6
         - txt :5
         - docx :6
-2.  事業活動産業別売上高 :
-    1. (大きい) : 
+3.  事業活動産業別売上高 :
+    1. (データサイズ大) : 
         - GPT :
             - pdf : 0
         - A-llm :
             - pdf : 2.5
         - claude2 (参考) : 
             - pdf : 7.5
-    2. (小さい) : 
+    2. (小) : 
         - GPT :
             - pdf :10
         - A-llm :
             - pdf :10
-3.  居住世帯有無別住宅数 : 
+4.  居住世帯有無別住宅数 : 
     - GPT :
         - pdf :8.5
     - A-llm :
         - pdf :10
-3. BBC州世論調査結果 : 
+5. BBC州世論調査結果 : 
     - GPT :
-        - pdf :
-        - txt :
+        - pdf :9
+        - txt :10
     - A-llm :
-        - pdf :
-        - txt :
-        - docx :
+        - pdf :7.5
+        - txt :10
+        - docx :10
 
-4. CNN気候変動サミット発言 : 
+6. CNN気候変動サミット発言 : 
     - GPT :
-        - pdf :
-        - txt :
+        - pdf :7.5
+        - txt :9
     - A-llm :
-        - pdf :
-        - txt :
-        - docx :  
+        - pdf :2
+        - txt :10
+        - docx : 9.5 
 
-5. NHK自衛隊空港利用 : 
+7. NHK自衛隊空港利用 : 
     - GPT :
-        - pdf :
-        - txt :
+        - pdf :8.5
+        - txt :8.5
     - A-llm :
-        - pdf :
-        - txt :
-        - docx :
+        - pdf :10
+        - txt :10
+        - docx :10
 
-6. TechCrunchレイオフと自動運転 : 
+8. TechCrunchレイオフと自動運転 : 
     1. 英語
         - GPT :
-            - pdf :
-            - txt :
+            - pdf :3
+            - txt :8.5
         - A-llm :
-            - pdf :
-            - txt :
-            - docx :
+            - pdf :8
+            - txt :8
+            - docx :9
     1. 日本語
         - GPT :
-            - pdf :
-            - txt :
+            - pdf :3.5
+            - txt :5
         - A-llm :
-            - pdf :
-            - txt :
-            - docx :
-7. はてなブログゲーム趣味収入 : 
+            - pdf :8.5
+            - txt :9
+            - docx :9
+9. はてなブログゲーム趣味収入 : 
     - GPT :
-        - pdf :
-        - txt :
+        - pdf :9
+        - txt :9
     - A-llm :
-        - pdf :
-        - txt :
-        - docx :  
+        - pdf :9
+        - txt :9
+        - docx :9
 
-8. Reddit角川出版議論 : 
+10. Reddit角川出版議論 : 
     - GPT :
-        - pdf :
-        - txt :
+        - pdf :8
+        - txt :8.5
     - A-llm :
-        - pdf :
-        - txt :
-        - docx :
+        - pdf :5.5
+        - txt :10
+        - docx :7.5
 
-9. Quoraモテる男性特徴 : 
+11. Quoraモテる男性特徴 : 
     - GPT :
-        - pdf :
-        - txt :
+        - pdf :10
+        - txt :10
     - A-llm :
-        - pdf :
-        - txt :
-        - docx :  
+        - pdf :10
+        - txt :10
+        - docx :10  
 
-10. 物理論文(Topological densities in Einstein-scalar-Gauss-Bonnet gravity) : 
+12. 物理論文(Topological densities in Einstein-scalar-Gauss-Bonnet gravity) : 
     - GPT :
-        - pdf :
-        - txt :
+        - pdf :9.5
+        - txt :9.5
     - A-llm :
-        - pdf :
-        - txt :
-        - docx :
+        - pdf :8
+        - txt :10
+        - docx :9.5
 
-11. コンピュータサイエンス論文(With Great Humor Comes Great Developer Engagement) : 
+13. コンピュータサイエンス論文(With Great Humor Comes Great Developer Engagement) : 
     - GPT :
-        - pdf :
-        - txt :
+        - pdf :10
+        - txt :10
     - A-llm :
-        - pdf :
-        - txt :
-        - docx :
+        - pdf :10
+        - txt :10
+        - docx :10
 
 
-12. 経済論文(The Classical Theory of Supply and Demand) : 
+14. 経済論文(The Classical Theory of Supply and Demand) : 
     - GPT :
-        - pdf :
-        - txt :
+        - pdf :10
+        - txt :10
     - A-llm :
-        - pdf :
-        - txt :
-        - docx :
+        - pdf :8
+        - txt :9
+        - docx :9
 
-13. 貿易ともだちブログ (親日家のタイ人」は日本人だけが持つ幻想) : 
+15. 貿易ともだちブログ (親日家のタイ人」は日本人だけが持つ幻想) : 
     - GPT :
-        - pdf :
-        - txt :
+        - pdf :9
+        - txt :9
     - A-llm :
-        - pdf :
-        - txt :
-        - docx :
+        - pdf :10
+        - txt :10
+        - docx :10
 
-14. mandahakkoブログ(16時間ファスティングとは) : 
+16. mandahakkoブログ(16時間ファスティングとは) : 
     - GPT :
-        - pdf :
-        - txt :
+        - pdf :10
+        - txt :10
     - A-llm :
-        - pdf :
-        - txt :
-        - docx :
+        - pdf :10
+        - txt :10
+        - docx :10
 
 
 
 ## 結果
 以下の表は、各ファイル形式におけるAddaptiveLLMとChatGPTの性能を比較したものです。
-### 回答精度
-### 回答速度
-### 柔軟性
+
+### 1.PDF
+![PDF](./tools/graph.png)
+### 2.TXT
+![PDF](./tools/graph2.png)
+### 3.Docx
+![PDF](./tools/graph3.png)
+
 ## 考察
-ここでは、結果の詳細な分析と解釈を提供します。各ツールがどのファイル形式で最も良好なパフォーマンスを発揮したか、またその理由について考察します。
+結果から、以下の観察が得られました。
+
+1. 平均スコアにおいて、ChatGPTがAddaptiveLLMを上回りました。これは、ChatGPTが全体的に高いパフォーマンスを発揮したことを示しています。
+
+2. ファイル形式による影響を見ると、TXT形式が最も高いスコアを示しました。これは、TXT形式が最もシンプルで読み取りやすい形式であるためと考えられます。次に高いスコアを示したのはDOCX形式で、これはDOCXが構造化されたデータを含むことが多いためと考えられます。
+
+3. 言語による影響を見ると、ChatGPTは英語の方がスコアが高くなりましたが、AddaptiveLLMは英語と日本語で大きな差は見られませんでした。これは、ChatGPTが英語のデータに対して特に強い性能を発揮する一方、AddaptiveLLMは言語による影響をあまり受けないことを示しています。
 
 ## 結論
-この報告書の結果に基づいて、AddaptiveLLMとChatGPTの性能を比較し、それぞれのツールが最適な使用状況とその理由を説明します。
+1. ChatGPTは全体的に高いパフォーマンスを発揮し、平均スコアではAddaptiveLLMを上回りました。したがって、一般的なテキスト解析タスクにはChatGPTの使用が推奨されます。
+
+2. ファイル形式による影響を考慮すると、TXT形式が最も高いスコアを示しました。これはTXT形式が最もシンプルで読み取りやすい形式であるためです。したがって、シンプルなテキストデータを解析する場合、TXT形式の使用が最適と言えます。
+
+3. 言語による影響を考慮すると、ChatGPTは英語のデータに対して特に強い性能を発揮しました。一方、AddaptiveLLMは英語と日本語で大きな差は見られませんでした。したがって、英語のテキスト解析にはChatGPT、日本語のテキスト解析にはAddaptiveLLMの使用が適していると言えます。
+
+以上の結論に基づき、それぞれのツールが最適な使用状況を理解し、適切なツールを選択することが重要であると言えます。
 
 ## 参考文献
 
